@@ -6,8 +6,6 @@
 
 ## 项目结构
 
-明白了，以下是使用树状表示你的项目结构：
-
 ```text
 ResNet-learn/
 ├── dataset
@@ -18,3 +16,5 @@ ResNet-learn/
 ├── train.py
 └── test.py
 ```
+
+(后续还未完成)
