@@ -1,26 +1,8 @@
 import torch
-
 from engine import train_model, evaluate_model
-import sys
-
-sys.path.append("model")
-from resnet import ResNet, Bottleneck
-
-sys.path.append("utils")
-from data_utils import load_data
-
-
-def train():
-    batch_size = 32
-    train_dir = "./dataset/mini-imagenet/train"
-    train_loader = load_data(train_dir, batch_size)
-
-    val_dir = "./dataset/mini-imagenet/val"
-    val_loader = load_data(val_dir, batch_size)
-
-    model = ResNet(Bottleneck, [3, 4, 6, 3], num_classes=100)
-    train_model(train_loader=train_loader, val_loader=val_loader, model=model)
-
+from model.resnet import ResNet, Bottleneck
+from utils.data_utils import load_data
+from utils.log_utils import configure_logging
 
 def test():
     batch_size = 32
@@ -38,9 +20,22 @@ def test():
 
 
 def main():
-    # train()
-    test()
+    
+    
+    train_dir = "./dataset/native-mini-imagenet/train"
+    train_loader = load_data(train_dir, batch_size = 32)
 
+    val_dir = "./dataset/native-mini-imagenet/val"
+    val_loader = load_data(val_dir, batch_size=1)
+    
+    model_list = [ResNet(Bottleneck, [3, 4, 6, 3], num_classes=100)]
+    model_name_list = ["ResNet"]
+    
+    for model, model_name in zip(model_list, model_name_list):
+        configure_logging(model_name)
+        train_model(train_loader=train_loader, val_loader=val_loader, model=model, model_name=model_name)
+        
+    
 
 if __name__ == "__main__":
     main()

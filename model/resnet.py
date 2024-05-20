@@ -6,7 +6,7 @@ import torch.nn.functional as F
 class Bottleneck(nn.Module):
     expansion = 4
 
-    def __init__(self, in_planes, planes, stride=1, downsample=None):
+    def __init__(self, in_planes, planes, stride=1, downsample=None, survival_prob=0.8):
         super(Bottleneck, self).__init__()
         # 1*1 卷积，降低维度
         self.conv1 = nn.Conv2d(
@@ -32,6 +32,7 @@ class Bottleneck(nn.Module):
         self.bn3 = nn.BatchNorm2d(planes * self.expansion)
         self.relu = nn.ReLU(inplace=True)
         self.downsample = downsample
+        self.survival_prob = survival_prob
         self.stride = stride
 
     def forward(self, x):
@@ -41,9 +42,15 @@ class Bottleneck(nn.Module):
         out = self.bn1(out)
         out = self.relu(out)
 
-        out = self.conv2(out)
-        out = self.bn2(out)
-        out = self.relu(out)
+        # 在这里实现随机深度
+        if self.training and torch.rand(1) < self.survival_prob:
+            out = self.conv2(out)
+            out = self.bn2(out)
+            out = self.relu(out)
+        elif not self.training:
+            out = self.conv2(out)
+            out = self.bn2(out)
+            out = self.relu(out)
 
         out = self.conv3(out)
         out = self.bn3(out)
