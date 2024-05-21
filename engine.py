@@ -1,11 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-
-import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter  # 导入tensorboard日志记录器
 import os
-import logging
 from utils.data_utils import mixup_data
 
 class LabelSmoothingLoss(nn.Module):
@@ -30,7 +27,7 @@ def mixup_criterion(criterion, pred, y_a, y_b, lam):
     return lam * criterion(pred, y_a) + (1 - lam) * criterion(pred, y_b)
 
 
-def train_model(train_loader, val_loader, model, model_name: str, epochs=15):
+def train_model(train_loader, val_loader, model, model_name: str, logger, epochs=15):
 
     # 检查是否有可用的GPU，没有的话回退到CPU
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -73,7 +70,7 @@ def train_model(train_loader, val_loader, model, model_name: str, epochs=15):
         epoch_loss = running_loss / len(train_loader.dataset)
         epoch_acc = running_corrects / len(train_loader.dataset)
 
-        epoch_val_acc, epoch_val_loss = evaluate_model(val_loader, model)
+        epoch_val_acc, epoch_val_loss = evaluate_model(val_loader, model, logger)
 
         logs_dir = os.path.join("./log", model_name)
         # 检查目录是否存在，如果不存在则创建
@@ -89,7 +86,7 @@ def train_model(train_loader, val_loader, model, model_name: str, epochs=15):
         writer.add_scalar("training val accuracy", epoch_val_acc, epoch)
         writer.add_scalar("training val loss", epoch_val_loss, epoch)
 
-        logging.info(
+        logger.info(
             f"Epoch {epoch+1}, Loss: {epoch_loss}, Acc: {epoch_acc:.4f}, Val Acc: {epoch_val_acc:.4f}, Val Loss: {epoch_val_loss:.4f}"
         )
         # 调整学习率
@@ -98,11 +95,11 @@ def train_model(train_loader, val_loader, model, model_name: str, epochs=15):
     save_model_dir = os.path.join("./trained_models", model_name + ".pth")
     # 保存模型
     torch.save(model.state_dict(), save_model_dir)
-    logging.info(f"Model saved with val accuracy: {100 * epoch_val_acc:.2f}%")
-    logging.info("Finished Training")
+    logger.info(f"Model saved with val accuracy: {100 * epoch_val_acc:.2f}%")
+    logger.info("Finished Training")
 
 
-def evaluate_model(data_loader, model):
+def evaluate_model(data_loader, model, logger):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
     model.eval()  # 将模型设置为评估模式
@@ -127,6 +124,6 @@ def evaluate_model(data_loader, model):
     average_loss = total_loss / total
     accuracy = correct / total
     
-    logging.info(f"Evaluating - Acc: {accuracy:.4f}, Loss: {average_loss:.4f}")
+    logger.info(f"Evaluating - Acc: {accuracy:.4f}, Loss: {average_loss:.4f}")
 
     return accuracy, average_loss

@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 
 class Bottleneck(nn.Module):
@@ -69,11 +68,17 @@ class Bottleneck(nn.Module):
 class ResNet(nn.Module):
     """docstring for ResNet."""
 
-    def __init__(self, block, layers, num_classes=200):
+    def __init__(
+        self,
+        block,
+        layers,
+        conv1=nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3, bias=False),
+        num_classes=100,
+    ):
         super(ResNet, self).__init__()
         self.in_planes = 64
-        # 初始的7x7卷积
-        self.conv1 = nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3, bias=False)
+        # 初始的干细胞卷积
+        self.conv1 = conv1
         self.bn1 = nn.BatchNorm2d(64)
         self.relu = nn.ReLU(inplace=True)
         # 最大池化层
