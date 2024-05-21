@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+
 import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter  # 导入tensorboard日志记录器
 import os
@@ -37,9 +38,11 @@ def train_model(train_loader, val_loader, model, model_name: str, epochs=15):
 
     # 使用标签平滑技术
     criterion = LabelSmoothingLoss(classes=100, smoothing=0.1)
-    optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
-    # 学习率调度器，这里使用StepLR作为示例
-    scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
+    # 使用AdamW优化器，并设置学习率和其他参数
+    optimizer = optim.AdamW(model.parameters(), lr=0.01)
+
+    # 学习率调度器保持不变，这里使用StepLR作为示例
+    scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=6, gamma=0.1)
 
     for epoch in range(epochs):
         model.train()
