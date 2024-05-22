@@ -5,7 +5,9 @@ import torch.nn as nn
 from engine import train_model, evaluate_model
 from model.resnet import ResNet
 from model.resnext import ResNeXt0, ResNeXt
-from model.bottleneck import Bottleneck, Bottleneckgroups, InvertedBottleneck
+from model.convnext import ConvNeXt
+from model.bottleneck import Bottleneck, Bottleneckgroups, InvertedBottleneck, Moveup
+from model import gelu, feweractivation, fewernorm, layernorm
 from utils.data_utils import load_data
 from utils.log_utils import configure_logging
 
@@ -28,7 +30,7 @@ def test():
 def main():
 
     train_dir = "./dataset/native-mini-imagenet/train"
-    train_loader = load_data(train_dir, batch_size=32)
+    train_loader = load_data(train_dir, batch_size=16)
 
     val_dir = "./dataset/native-mini-imagenet/val"
     val_loader = load_data(val_dir, batch_size=1)
@@ -44,10 +46,19 @@ def main():
             ),  # 更改干细胞卷积
         ),
         ResNeXt0(Bottleneckgroups, [3, 3, 9, 3]),  # 使用ResNeXt
-        ResNeXt0(
-            Bottleneckgroups, [3, 3, 9, 3], in_planes=96  # 更改通道数为96
-        ),
-        ResNeXt(InvertedBottleneck, [3, 3, 9, 3], in_planes=96)
+        ResNeXt0(Bottleneckgroups, [3, 3, 9, 3], in_planes=96),  # 更改通道数为96
+        ResNeXt(InvertedBottleneck, [3, 3, 9, 3], in_planes=96),
+        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=3),
+        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=5),
+        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=7),
+        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=9),
+        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=11),
+        gelu.ResNeXt(gelu.Bottleneck),
+        feweractivation.ResNeXt(feweractivation.Bottleneck),
+        fewernorm.ResNeXt(fewernorm.Bottleneck),
+        layernorm.ResNeXt(layernorm.Bottleneck),
+        ConvNeXt()
+        
     ]
     model_name_list = [
         "ResNet",
@@ -56,6 +67,16 @@ def main():
         "depth_conv",
         "width",
         "inverting_dims",
+        "move",
+        "kernel5",
+        "kernel7",
+        "kernel9",
+        "kernel11",
+        "gelu",
+        "fewer_activations",
+        "fewer_norms",
+        "layernorm",
+        "convnext"
     ]
 
     for model, model_name in zip(model_list, model_name_list):
@@ -67,7 +88,7 @@ def main():
                 val_loader=val_loader,
                 model=model,
                 model_name=model_name,
-                epochs=3,
+                epochs=2,
                 logger=logger,
             )
         else:

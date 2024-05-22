@@ -96,9 +96,10 @@ class ResNeXt0(nn.Module):
 
 
 class ResNeXt(nn.Module):
-    def __init__(self, block, layers, in_planes=64, num_classes=100):
+    def __init__(self, block, layers, kernel_size=7, in_planes=64, num_classes=100):
         super(ResNeXt, self).__init__()
         self.in_planes = in_planes
+        self.kernel_size = kernel_size
         self.conv1 = nn.Conv2d(3, in_planes, kernel_size=4, stride=4, bias=False)
         self.bn1 = nn.BatchNorm2d(in_planes)
         self.relu = nn.ReLU(inplace=True)
@@ -128,15 +129,25 @@ class ResNeXt(nn.Module):
         downsample = None
         if stride != 1 or self.in_planes != planes:
             downsample = nn.Sequential(
-                nn.Conv2d(self.in_planes, planes, kernel_size=1, stride=stride, bias=False),
+                nn.Conv2d(
+                    self.in_planes, planes, kernel_size=1, stride=stride, bias=False
+                ),
                 nn.BatchNorm2d(planes),
             )
 
         layers = []
-        layers.append(block(self.in_planes, planes, stride, downsample))
+        layers.append(
+            block(
+                self.in_planes,
+                planes,
+                self.kernel_size,
+                stride,
+                downsample,
+            )
+        )
         self.in_planes = planes
         for _ in range(1, blocks):
-            layers.append(block(self.in_planes, planes))
+            layers.append(block(self.in_planes, planes, self.kernel_size))
 
         return nn.Sequential(*layers)
 

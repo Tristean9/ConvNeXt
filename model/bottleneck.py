@@ -118,17 +118,39 @@ class Bottleneckgroups(nn.Module):
 class InvertedBottleneck(nn.Module):
     expansion = 4
 
-    def __init__(self, in_planes, planes, stride=1, downsample=None):
+    def __init__(self, in_planes, planes, kernel_size=3, stride=1, downsample=None):
         super(InvertedBottleneck, self).__init__()
-        self.conv1 = nn.Conv2d(in_planes, planes * self.expansion, kernel_size=1, stride=1, padding=0, bias=False)
+        self.conv1 = nn.Conv2d(
+            in_planes,
+            planes * self.expansion,
+            kernel_size=1,
+            stride=1,
+            padding=0,
+            bias=False,
+        )
         self.bn1 = nn.BatchNorm2d(planes * self.expansion)
-        
-        self.conv2 = nn.Conv2d(planes * self.expansion, planes * self.expansion, kernel_size=3, stride=stride, padding=1, groups=planes * self.expansion, bias=False)
+
+        self.conv2 = nn.Conv2d(
+            planes * self.expansion,
+            planes * self.expansion,
+            kernel_size=3,
+            stride=stride,
+            padding=1,
+            groups=planes,
+            bias=False,
+        )
         self.bn2 = nn.BatchNorm2d(planes * self.expansion)
-        
-        self.conv3 = nn.Conv2d(planes * self.expansion, planes, kernel_size=1, stride=1, padding=0, bias=False)
+
+        self.conv3 = nn.Conv2d(
+            planes * self.expansion,
+            planes,
+            kernel_size=1,
+            stride=1,
+            padding=0,
+            bias=False,
+        )
         self.bn3 = nn.BatchNorm2d(planes)
-        
+
         self.relu = nn.ReLU(inplace=True)
         self.downsample = downsample
         self.stride = stride
@@ -150,6 +172,73 @@ class InvertedBottleneck(nn.Module):
         if self.downsample is not None:
             identity = self.downsample(x)
 
+        # 将输入x添加回输出
+        out += identity
+        out = self.relu(out)
+
+        return out
+
+
+class Moveup(nn.Module):
+    expansion = 4
+
+    def __init__(self, in_planes, planes, kernel_size=7, stride=1, downsample=None):
+        super(Moveup, self).__init__()
+        self.conv1 = nn.Conv2d(
+            in_planes,
+            in_planes,
+            kernel_size,
+            stride=stride,
+            padding=int((kernel_size - 1) // 2),
+            groups=in_planes,
+            bias=False,
+        )
+        self.bn1 = nn.BatchNorm2d(in_planes)
+        self.conv2 = nn.Conv2d(
+            in_planes,
+            in_planes * self.expansion,
+            kernel_size=1,
+            stride=1,
+            padding=0,
+            bias=False,
+        )
+        self.bn2 = nn.BatchNorm2d(
+            in_planes * self.expansion,
+        )
+
+        self.conv3 = nn.Conv2d(
+            in_planes * self.expansion,
+            planes,
+            kernel_size=1,
+            stride=1,
+            padding=0,
+            bias=False,
+        )
+        self.bn3 = nn.BatchNorm2d(planes)
+
+        self.relu = nn.ReLU(inplace=True)
+        self.downsample = downsample
+        self.stride = stride
+
+    def forward(self, x):
+        identity = x
+        # print("x",x.shape)
+
+        out = self.conv1(x)
+        out = self.bn1(out)
+        out = self.relu(out)
+
+        out = self.conv2(out)
+        out = self.bn2(out)
+        out = self.relu(out)
+
+        out = self.conv3(out)
+        out = self.bn3(out)
+
+        if self.downsample is not None:
+            identity = self.downsample(x)
+        #     print("identity", identity.shape)
+        # print("out", out.shape)
         # 将输入x添加回输出
         out += identity
         out = self.relu(out)
