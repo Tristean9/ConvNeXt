@@ -5,6 +5,7 @@ from torch.utils.tensorboard import SummaryWriter  # 导入tensorboard日志记�
 import os
 from utils.data_utils import mixup_data
 
+
 class LabelSmoothingLoss(nn.Module):
     def __init__(self, classes, smoothing=0.0, dim=-1):
         super(LabelSmoothingLoss, self).__init__()
@@ -12,7 +13,7 @@ class LabelSmoothingLoss(nn.Module):
         self.smoothing = smoothing
         self.cls = classes
         self.dim = dim
-    
+
     def forward(self, pred, target):
         pred = pred.log_softmax(dim=self.dim)
         with torch.no_grad():
@@ -21,20 +22,23 @@ class LabelSmoothingLoss(nn.Module):
             true_dist.fill_(self.smoothing / (self.cls - 1))
             true_dist.scatter_(1, target.data.unsqueeze(1), self.confidence)
         return torch.mean(torch.sum(-true_dist * pred, dim=self.dim))
-    
+
+
 # Mixup 损失函数
 def mixup_criterion(criterion, pred, y_a, y_b, lam):
     return lam * criterion(pred, y_a) + (1 - lam) * criterion(pred, y_b)
 
 
-def train_model(train_loader, val_loader, model, model_name: str, logger, epochs=15):
+def train_model(
+    train_loader, val_loader, model, model_name: str, num_classes, logger, epochs=15
+):
 
     # 检查是否有可用的GPU，没有的话回退到CPU
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
 
     # 使用标签平滑技术
-    criterion = LabelSmoothingLoss(classes=100, smoothing=0.1)
+    criterion = LabelSmoothingLoss(classes=num_classes, smoothing=0.1)
     # 使用AdamW优化器，并设置学习率和其他参数
     optimizer = optim.AdamW(model.parameters(), lr=0.01)
 
@@ -120,10 +124,9 @@ def evaluate_model(data_loader, model, logger):
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
 
-
     average_loss = total_loss / total
     accuracy = correct / total
-    
+
     logger.info(f"Evaluating - Acc: {accuracy:.4f}, Loss: {average_loss:.4f}")
 
     return accuracy, average_loss

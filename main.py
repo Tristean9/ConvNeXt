@@ -18,13 +18,58 @@ def test():
     test_dir = "./dataset/mini-imagenet/test"
     test_loader = load_data(test_dir, batch_size)
 
-    model = ResNet(Bottleneck, [3, 4, 6, 3])
-    # 加载权重
-    weights_path = "./trained_models/best_mini_resnet50.pth"
-    model.load_state_dict(torch.load(weights_path))
+    model_list = [
+        # ResNet(Bottleneck, [3, 4, 6, 3]),  # 原始ResNet
+        # ResNet(Bottleneck, [3, 3, 9, 3]),  # 更改Bottleneck为[3, 3, 9, 3]
+        # ResNet(
+        #     Bottleneck,
+        #     [3, 3, 9, 3],
+        #     conv1=nn.Conv2d(
+        #         3, 64, kernel_size=4, stride=4, bias=False
+        #     ),  # 更改干细胞卷积
+        # ),
+        # ResNeXt0(Bottleneckgroups, [3, 3, 9, 3]),  # 使用ResNeXt
+        # ResNeXt0(Bottleneckgroups, [3, 3, 9, 3], in_planes=96),  # 更改通道数为96
+        # ResNeXt(InvertedBottleneck, [3, 3, 9, 3], in_planes=96),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=3),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=5),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=7),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=9),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=11),
+        # gelu.ResNeXt(gelu.Bottleneck),
+        # feweractivation.ResNeXt(feweractivation.Bottleneck),
+        fewernorm.ResNeXt(fewernorm.Bottleneck),
+        # layernorm.ResNeXt(layernorm.Bottleneck),
+        # ConvNeXt()
+        
+        
+    ]
+    model_name_list = [
+        # "ResNet",
+        # "stage_ratio",
+        # "patchify_stem",
+        # "depth_conv",
+        # "width",
+        # "inverting_dims",
+        # "move",
+        # "kernel5",
+        # "kernel7",
+        # "kernel9",
+        # "kernel11",
+        # "gelu",
+        # "fewer_activations",
+        "fewer_norms",
+        # "layernorm",
+        # "convnext"
+    ]
 
-    test_acc, _ = evaluate_model(model=model, data_loader=test_loader)
-    print(f"Evaluating - Acc: {test_acc:.2f}%")
+    for model, model_name in zip(model_list, model_name_list):
+        logger = configure_logging(model_name)
+        # 加载权重
+        weights_path = os.path.join("trained_models", model_name + ".pth")
+        model.load_state_dict(torch.load(weights_path))
+        test_acc, _ = evaluate_model(model=model, data_loader=test_loader, logger=logger)
+        logging.info(f"Evaluating - Acc: {test_acc:.2f}%")
 
 
 def main():
@@ -36,46 +81,47 @@ def main():
     val_loader = load_data(val_dir, batch_size=1)
 
     model_list = [
-        ResNet(Bottleneck, [3, 4, 6, 3]),  # 原始ResNet
-        ResNet(Bottleneck, [3, 3, 9, 3]),  # 更改Bottleneck为[3, 3, 9, 3]
-        ResNet(
-            Bottleneck,
-            [3, 3, 9, 3],
-            conv1=nn.Conv2d(
-                3, 64, kernel_size=4, stride=4, bias=False
-            ),  # 更改干细胞卷积
-        ),
-        ResNeXt0(Bottleneckgroups, [3, 3, 9, 3]),  # 使用ResNeXt
-        ResNeXt0(Bottleneckgroups, [3, 3, 9, 3], in_planes=96),  # 更改通道数为96
-        ResNeXt(InvertedBottleneck, [3, 3, 9, 3], in_planes=96),
-        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=3),
-        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=5),
-        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=7),
-        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=9),
-        ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=11),
-        gelu.ResNeXt(gelu.Bottleneck),
-        feweractivation.ResNeXt(feweractivation.Bottleneck),
-        fewernorm.ResNeXt(fewernorm.Bottleneck),
-        layernorm.ResNeXt(layernorm.Bottleneck),
+        # ResNet(Bottleneck, [3, 4, 6, 3]),  # 原始ResNet
+        # ResNet(Bottleneck, [3, 3, 9, 3]),  # 更改Bottleneck为[3, 3, 9, 3]
+        # ResNet(
+        #     Bottleneck,
+        #     [3, 3, 9, 3],
+        #     conv1=nn.Conv2d(
+        #         3, 64, kernel_size=4, stride=4, bias=False
+        #     ),  # 更改干细胞卷积
+        # ),
+        # ResNeXt0(Bottleneckgroups, [3, 3, 9, 3]),  # 使用ResNeXt
+        # ResNeXt0(Bottleneckgroups, [3, 3, 9, 3], in_planes=96),  # 更改通道数为96
+        # ResNeXt(InvertedBottleneck, [3, 3, 9, 3], in_planes=96),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=3),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=5),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=7),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=9),
+        # ResNeXt(Moveup, [3, 3, 9, 3], in_planes=96, kernel_size=11),
+        # gelu.ResNeXt(gelu.Bottleneck),
+        # feweractivation.ResNeXt(feweractivation.Bottleneck),
+        # fewernorm.ResNeXt(fewernorm.Bottleneck),
+        # layernorm.ResNeXt(layernorm.Bottleneck),
         ConvNeXt()
+        
         
     ]
     model_name_list = [
-        "ResNet",
-        "stage_ratio",
-        "patchify_stem",
-        "depth_conv",
-        "width",
-        "inverting_dims",
-        "move",
-        "kernel5",
-        "kernel7",
-        "kernel9",
-        "kernel11",
-        "gelu",
-        "fewer_activations",
-        "fewer_norms",
-        "layernorm",
+        # "ResNet",
+        # "stage_ratio",
+        # "patchify_stem",
+        # "depth_conv",
+        # "width",
+        # "inverting_dims",
+        # "move",
+        # "kernel5",
+        # "kernel7",
+        # "kernel9",
+        # "kernel11",
+        # "gelu",
+        # "fewer_activations",
+        # "fewer_norms",
+        # "layernorm",
         "convnext"
     ]
 
@@ -97,4 +143,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    test()
