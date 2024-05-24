@@ -1,0 +1,63 @@
+2024-05-23 14:02:04,159 - kernel5 - INFO - kernel5 starts training !
+2024-05-23 14:09:00,339 - kernel5 - INFO - Evaluating - Acc: 0.0638, Loss: 4.2767
+2024-05-23 14:09:00,344 - kernel5 - INFO - Epoch 1, Loss: 4.556865193049113, Acc: 0.0000, Val Acc: 0.0638, Val Loss: 4.2767
+2024-05-23 14:15:55,813 - kernel5 - INFO - Evaluating - Acc: 0.1208, Loss: 3.7656
+2024-05-23 14:15:55,820 - kernel5 - INFO - Epoch 2, Loss: 4.2786517717043555, Acc: 0.0000, Val Acc: 0.1208, Val Loss: 3.7656
+2024-05-23 14:22:52,037 - kernel5 - INFO - Evaluating - Acc: 0.1357, Loss: 3.6487
+2024-05-23 14:22:52,040 - kernel5 - INFO - Epoch 3, Loss: 4.096957284291586, Acc: 0.0000, Val Acc: 0.1357, Val Loss: 3.6487
+2024-05-23 14:29:47,944 - kernel5 - INFO - Evaluating - Acc: 0.2212, Loss: 3.3052
+2024-05-23 14:29:47,948 - kernel5 - INFO - Epoch 4, Loss: 3.9773474281628927, Acc: 0.0000, Val Acc: 0.2212, Val Loss: 3.3052
+2024-05-23 14:36:48,398 - kernel5 - INFO - Evaluating - Acc: 0.2247, Loss: 3.2546
+2024-05-23 14:36:48,550 - kernel5 - INFO - Epoch 5, Loss: 3.889450650691986, Acc: 0.0000, Val Acc: 0.2247, Val Loss: 3.2546
+2024-05-23 14:43:49,795 - kernel5 - INFO - Evaluating - Acc: 0.2680, Loss: 3.0888
+2024-05-23 14:43:49,798 - kernel5 - INFO - Epoch 6, Loss: 3.8261803946495054, Acc: 0.0000, Val Acc: 0.2680, Val Loss: 3.0888
+2024-05-23 14:50:49,237 - kernel5 - INFO - Evaluating - Acc: 0.3525, Loss: 2.6636
+2024-05-23 14:50:49,240 - kernel5 - INFO - Epoch 7, Loss: 3.632083572546641, Acc: 0.0000, Val Acc: 0.3525, Val Loss: 2.6636
+2024-05-23 14:57:49,884 - kernel5 - INFO - Evaluating - Acc: 0.3613, Loss: 2.6075
+2024-05-23 14:57:49,888 - kernel5 - INFO - Epoch 8, Loss: 3.542060136795044, Acc: 0.0000, Val Acc: 0.3613, Val Loss: 2.6075
+2024-05-23 15:04:49,172 - kernel5 - INFO - Evaluating - Acc: 0.3808, Loss: 2.5559
+2024-05-23 15:04:49,176 - kernel5 - INFO - Epoch 9, Loss: 3.521515687306722, Acc: 0.0000, Val Acc: 0.3808, Val Loss: 2.5559
+2024-05-23 15:11:44,698 - kernel5 - INFO - Evaluating - Acc: 0.3922, Loss: 2.4997
+2024-05-23 15:11:44,701 - kernel5 - INFO - Epoch 10, Loss: 3.475287362734477, Acc: 0.0000, Val Acc: 0.3922, Val Loss: 2.4997
+2024-05-23 15:18:45,293 - kernel5 - INFO - Evaluating - Acc: 0.4102, Loss: 2.4425
+2024-05-23 15:18:45,299 - kernel5 - INFO - Epoch 11, Loss: 3.4162779278755186, Acc: 0.0000, Val Acc: 0.4102, Val Loss: 2.4425
+2024-05-23 15:25:44,852 - kernel5 - INFO - Evaluating - Acc: 0.4117, Loss: 2.4128
+2024-05-23 15:25:44,856 - kernel5 - INFO - Epoch 12, Loss: 3.3872279198964437, Acc: 0.0000, Val Acc: 0.4117, Val Loss: 2.4128
+2024-05-23 15:32:43,204 - kernel5 - INFO - Evaluating - Acc: 0.4415, Loss: 2.2963
+2024-05-23 15:32:43,208 - kernel5 - INFO - Epoch 13, Loss: 3.3307776737213133, Acc: 0.0000, Val Acc: 0.4415, Val Loss: 2.2963
+2024-05-23 15:39:41,573 - kernel5 - INFO - Evaluating - Acc: 0.4373, Loss: 2.3096
+2024-05-23 15:39:41,576 - kernel5 - INFO - Epoch 14, Loss: 3.305213321685791, Acc: 0.0000, Val Acc: 0.4373, Val Loss: 2.3096
+2024-05-23 15:46:37,920 - kernel5 - INFO - Evaluating - Acc: 0.4357, Loss: 2.3224
+2024-05-23 15:46:37,924 - kernel5 - INFO - Epoch 15, Loss: 3.2888172273635865, Acc: 0.0000, Val Acc: 0.4357, Val Loss: 2.3224
+2024-05-23 15:53:36,824 - kernel5 - INFO - Evaluating - Acc: 0.4380, Loss: 2.2949
+2024-05-23 15:53:36,829 - kernel5 - INFO - Epoch 16, Loss: 3.2924027881622315, Acc: 0.0000, Val Acc: 0.4380, Val Loss: 2.2949
+2024-05-23 16:00:37,178 - kernel5 - INFO - Evaluating - Acc: 0.4435, Loss: 2.2816
+2024-05-23 16:00:37,181 - kernel5 - INFO - Epoch 17, Loss: 3.2669709850947064, Acc: 0.0000, Val Acc: 0.4435, Val Loss: 2.2816
+2024-05-23 16:07:35,728 - kernel5 - INFO - Evaluating - Acc: 0.4495, Loss: 2.2651
+2024-05-23 16:07:35,732 - kernel5 - INFO - Epoch 18, Loss: 3.2836083766619364, Acc: 0.0000, Val Acc: 0.4495, Val Loss: 2.2651
+2024-05-23 16:14:35,916 - kernel5 - INFO - Evaluating - Acc: 0.4522, Loss: 2.2637
+2024-05-23 16:14:35,920 - kernel5 - INFO - Epoch 19, Loss: 3.260824621041616, Acc: 0.0000, Val Acc: 0.4522, Val Loss: 2.2637
+2024-05-23 16:21:34,565 - kernel5 - INFO - Evaluating - Acc: 0.4480, Loss: 2.2712
+2024-05-23 16:21:34,569 - kernel5 - INFO - Epoch 20, Loss: 3.2296509694258373, Acc: 0.0000, Val Acc: 0.4480, Val Loss: 2.2712
+2024-05-23 16:28:35,545 - kernel5 - INFO - Evaluating - Acc: 0.4502, Loss: 2.2574
+2024-05-23 16:28:35,548 - kernel5 - INFO - Epoch 21, Loss: 3.2569807244936624, Acc: 0.0000, Val Acc: 0.4502, Val Loss: 2.2574
+2024-05-23 16:35:38,311 - kernel5 - INFO - Evaluating - Acc: 0.4432, Loss: 2.2945
+2024-05-23 16:35:38,314 - kernel5 - INFO - Epoch 22, Loss: 3.2384702299435935, Acc: 0.0000, Val Acc: 0.4432, Val Loss: 2.2945
+2024-05-23 16:42:42,701 - kernel5 - INFO - Evaluating - Acc: 0.4495, Loss: 2.2950
+2024-05-23 16:42:42,707 - kernel5 - INFO - Epoch 23, Loss: 3.2606609230836234, Acc: 0.0000, Val Acc: 0.4495, Val Loss: 2.2950
+2024-05-23 16:49:44,847 - kernel5 - INFO - Evaluating - Acc: 0.4395, Loss: 2.2842
+2024-05-23 16:49:44,857 - kernel5 - INFO - Epoch 24, Loss: 3.2629944156010944, Acc: 0.0000, Val Acc: 0.4395, Val Loss: 2.2842
+2024-05-23 16:56:43,625 - kernel5 - INFO - Evaluating - Acc: 0.4428, Loss: 2.2940
+2024-05-23 16:56:43,628 - kernel5 - INFO - Epoch 25, Loss: 3.2406987021764118, Acc: 0.0000, Val Acc: 0.4428, Val Loss: 2.2940
+2024-05-23 17:03:43,873 - kernel5 - INFO - Evaluating - Acc: 0.4558, Loss: 2.2534
+2024-05-23 17:03:43,881 - kernel5 - INFO - Epoch 26, Loss: 3.2465327576001486, Acc: 0.0000, Val Acc: 0.4558, Val Loss: 2.2534
+2024-05-23 17:10:42,518 - kernel5 - INFO - Evaluating - Acc: 0.4493, Loss: 2.2729
+2024-05-23 17:10:42,521 - kernel5 - INFO - Epoch 27, Loss: 3.222803356965383, Acc: 0.0000, Val Acc: 0.4493, Val Loss: 2.2729
+2024-05-23 17:17:41,925 - kernel5 - INFO - Evaluating - Acc: 0.4523, Loss: 2.2666
+2024-05-23 17:17:41,929 - kernel5 - INFO - Epoch 28, Loss: 3.226392981529236, Acc: 0.0000, Val Acc: 0.4523, Val Loss: 2.2666
+2024-05-23 17:24:39,530 - kernel5 - INFO - Evaluating - Acc: 0.4482, Loss: 2.2753
+2024-05-23 17:24:39,534 - kernel5 - INFO - Epoch 29, Loss: 3.2534512729644773, Acc: 0.0000, Val Acc: 0.4482, Val Loss: 2.2753
+2024-05-23 17:31:41,947 - kernel5 - INFO - Evaluating - Acc: 0.4523, Loss: 2.2525
+2024-05-23 17:31:41,951 - kernel5 - INFO - Epoch 30, Loss: 3.239056775887807, Acc: 0.0000, Val Acc: 0.4523, Val Loss: 2.2525
+2024-05-23 17:31:42,157 - kernel5 - INFO - Model saved with val accuracy: 45.23%
+2024-05-23 17:31:42,158 - kernel5 - INFO - Finished Training

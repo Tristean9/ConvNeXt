@@ -2,13 +2,15 @@
 import torch
 import torch.nn as nn
 from engine import train_model, evaluate_model
-from model.convnext import ConvNeXt
-from model import fewernorm
+from model import feweractivation
 from utils.data_utils import load_data
 from utils.log_utils import configure_logging
 
 
 def tune():
+    """
+    `tune` 函数加载预先训练的模型，替换分类头，并在新的数据集上对模型进行特定数量的 epoch 训练。
+    """
 
     train_dir = "./dataset/MSR/train"
     train_loader = load_data(train_dir, batch_size=16)
@@ -17,15 +19,16 @@ def tune():
     val_loader = load_data(val_dir, batch_size=1)
 
     # 加载预训练模型
-    model = fewernorm.ResNeXt(fewernorm.Bottleneck)
-    weights_path = "trained_models/fewer_norms.pth"
+    model = feweractivation.ResNeXt(feweractivation.Bottleneck)
+    weights_path = "trained_models/fewer_activations.pth"
     model.load_state_dict(torch.load(weights_path))
+    
 
     # 替换分类头
     num_classes = 4  # 新任务的类别数
     model.fc = nn.Linear(model.fc.in_features, num_classes)
 
-    model_name = "fewer_norms_tune_msr"
+    model_name = "fewer_activations_tune_msr"
 
     logger = configure_logging(model_name)
     logger.info(f"{model_name} starts training !")
@@ -41,26 +44,27 @@ def tune():
 
 
 def test():
-    test_dir = "./dataset/MSR/val"
+    test_dir = "./dataset/MSR/test"
     test_loader = load_data(test_dir, batch_size=1)
 
     # 加载预训练模型
-    model = fewernorm.ResNeXt(fewernorm.Bottleneck)
+    model = feweractivation.ResNeXt(feweractivation.Bottleneck)
+    
     # 替换分类头
     num_classes = 4  # 新任务的类别数
     model.fc = nn.Linear(model.fc.in_features, num_classes)
 
-    weights_path = "trained_models/fewer_norms_tune_msr.pth"
+    weights_path = "trained_models/fewer_activations_tune_msr.pth"
     model.load_state_dict(torch.load(weights_path))
 
-    model_name = "fewer_norms_tune_msr"
+    model_name = "fewer_activations_tune_msr"
 
     logger = configure_logging(model_name)
     evaluate_model(data_loader=test_loader, model=model, logger=logger)
 
 
 def main():
-    tune()
+    # tune()
     test()
 
 

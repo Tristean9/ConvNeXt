@@ -1,0 +1,63 @@
+2024-05-23 17:49:33,434 - fewer_activations - INFO - fewer_activations starts training !
+2024-05-23 17:56:42,257 - fewer_activations - INFO - Evaluating - Acc: 0.0595, Loss: 4.3865
+2024-05-23 17:56:42,261 - fewer_activations - INFO - Epoch 1, Loss: 4.638320046424866, Acc: 0.0000, Val Acc: 0.0595, Val Loss: 4.3865
+2024-05-23 18:03:51,465 - fewer_activations - INFO - Evaluating - Acc: 0.1133, Loss: 3.8675
+2024-05-23 18:03:51,468 - fewer_activations - INFO - Epoch 2, Loss: 4.32007967487971, Acc: 0.0000, Val Acc: 0.1133, Val Loss: 3.8675
+2024-05-23 18:10:56,388 - fewer_activations - INFO - Evaluating - Acc: 0.1675, Loss: 3.5977
+2024-05-23 18:10:56,393 - fewer_activations - INFO - Epoch 3, Loss: 4.216838552633921, Acc: 0.0000, Val Acc: 0.1675, Val Loss: 3.5977
+2024-05-23 18:18:01,318 - fewer_activations - INFO - Evaluating - Acc: 0.1417, Loss: 3.5465
+2024-05-23 18:18:01,322 - fewer_activations - INFO - Epoch 4, Loss: 4.113464585145315, Acc: 0.0000, Val Acc: 0.1417, Val Loss: 3.5465
+2024-05-23 18:25:05,169 - fewer_activations - INFO - Evaluating - Acc: 0.2160, Loss: 3.3054
+2024-05-23 18:25:05,173 - fewer_activations - INFO - Epoch 5, Loss: 4.024353498776754, Acc: 0.0000, Val Acc: 0.2160, Val Loss: 3.3054
+2024-05-23 18:32:12,343 - fewer_activations - INFO - Evaluating - Acc: 0.2238, Loss: 3.1532
+2024-05-23 18:32:12,346 - fewer_activations - INFO - Epoch 6, Loss: 3.951057278951009, Acc: 0.0000, Val Acc: 0.2238, Val Loss: 3.1532
+2024-05-23 18:39:18,378 - fewer_activations - INFO - Evaluating - Acc: 0.3502, Loss: 2.6935
+2024-05-23 18:39:18,382 - fewer_activations - INFO - Epoch 7, Loss: 3.623610242366791, Acc: 0.0000, Val Acc: 0.3502, Val Loss: 2.6935
+2024-05-23 18:46:24,445 - fewer_activations - INFO - Evaluating - Acc: 0.3742, Loss: 2.5996
+2024-05-23 18:46:24,452 - fewer_activations - INFO - Epoch 8, Loss: 3.560916082382202, Acc: 0.0000, Val Acc: 0.3742, Val Loss: 2.5996
+2024-05-23 18:53:32,435 - fewer_activations - INFO - Evaluating - Acc: 0.3763, Loss: 2.5759
+2024-05-23 18:53:32,442 - fewer_activations - INFO - Epoch 9, Loss: 3.5027831525802613, Acc: 0.0000, Val Acc: 0.3763, Val Loss: 2.5759
+2024-05-23 19:00:37,120 - fewer_activations - INFO - Evaluating - Acc: 0.4023, Loss: 2.4976
+2024-05-23 19:00:37,123 - fewer_activations - INFO - Epoch 10, Loss: 3.4657846422195435, Acc: 0.0000, Val Acc: 0.4023, Val Loss: 2.4976
+2024-05-23 19:07:45,941 - fewer_activations - INFO - Evaluating - Acc: 0.4142, Loss: 2.4152
+2024-05-23 19:07:45,944 - fewer_activations - INFO - Epoch 11, Loss: 3.4219741059939066, Acc: 0.0000, Val Acc: 0.4142, Val Loss: 2.4152
+2024-05-23 19:14:53,508 - fewer_activations - INFO - Evaluating - Acc: 0.4253, Loss: 2.3637
+2024-05-23 19:14:53,513 - fewer_activations - INFO - Epoch 12, Loss: 3.3719666465123495, Acc: 0.0000, Val Acc: 0.4253, Val Loss: 2.3637
+2024-05-23 19:22:03,924 - fewer_activations - INFO - Evaluating - Acc: 0.4492, Loss: 2.2963
+2024-05-23 19:22:03,928 - fewer_activations - INFO - Epoch 13, Loss: 3.2917771147092183, Acc: 0.0000, Val Acc: 0.4492, Val Loss: 2.2963
+2024-05-23 19:29:10,851 - fewer_activations - INFO - Evaluating - Acc: 0.4528, Loss: 2.2651
+2024-05-23 19:29:10,854 - fewer_activations - INFO - Epoch 14, Loss: 3.2564586720466613, Acc: 0.0000, Val Acc: 0.4528, Val Loss: 2.2651
+2024-05-23 19:36:15,795 - fewer_activations - INFO - Evaluating - Acc: 0.4572, Loss: 2.2536
+2024-05-23 19:36:15,799 - fewer_activations - INFO - Epoch 15, Loss: 3.251803747018178, Acc: 0.0000, Val Acc: 0.4572, Val Loss: 2.2536
+2024-05-23 19:43:23,116 - fewer_activations - INFO - Evaluating - Acc: 0.4553, Loss: 2.2703
+2024-05-23 19:43:23,120 - fewer_activations - INFO - Epoch 16, Loss: 3.237047497908274, Acc: 0.0000, Val Acc: 0.4553, Val Loss: 2.2703
+2024-05-23 19:50:29,098 - fewer_activations - INFO - Evaluating - Acc: 0.4535, Loss: 2.2693
+2024-05-23 19:50:29,103 - fewer_activations - INFO - Epoch 17, Loss: 3.2471315875053404, Acc: 0.0000, Val Acc: 0.4535, Val Loss: 2.2693
+2024-05-23 19:57:36,714 - fewer_activations - INFO - Evaluating - Acc: 0.4605, Loss: 2.2475
+2024-05-23 19:57:36,725 - fewer_activations - INFO - Epoch 18, Loss: 3.216611824353536, Acc: 0.0000, Val Acc: 0.4605, Val Loss: 2.2475
+2024-05-23 20:04:46,102 - fewer_activations - INFO - Evaluating - Acc: 0.4607, Loss: 2.2296
+2024-05-23 20:04:46,107 - fewer_activations - INFO - Epoch 19, Loss: 3.189909662326177, Acc: 0.0000, Val Acc: 0.4607, Val Loss: 2.2296
+2024-05-23 20:11:54,773 - fewer_activations - INFO - Evaluating - Acc: 0.4582, Loss: 2.2612
+2024-05-23 20:11:54,777 - fewer_activations - INFO - Epoch 20, Loss: 3.205939748128255, Acc: 0.0000, Val Acc: 0.4582, Val Loss: 2.2612
+2024-05-23 20:19:05,409 - fewer_activations - INFO - Evaluating - Acc: 0.4560, Loss: 2.2399
+2024-05-23 20:19:05,413 - fewer_activations - INFO - Epoch 21, Loss: 3.2042144021193186, Acc: 0.0000, Val Acc: 0.4560, Val Loss: 2.2399
+2024-05-23 20:26:15,499 - fewer_activations - INFO - Evaluating - Acc: 0.4620, Loss: 2.2192
+2024-05-23 20:26:15,502 - fewer_activations - INFO - Epoch 22, Loss: 3.2159800091584523, Acc: 0.0000, Val Acc: 0.4620, Val Loss: 2.2192
+2024-05-23 20:33:27,424 - fewer_activations - INFO - Evaluating - Acc: 0.4605, Loss: 2.2443
+2024-05-23 20:33:27,426 - fewer_activations - INFO - Epoch 23, Loss: 3.2032074329853057, Acc: 0.0000, Val Acc: 0.4605, Val Loss: 2.2443
+2024-05-23 20:40:34,919 - fewer_activations - INFO - Evaluating - Acc: 0.4548, Loss: 2.2657
+2024-05-23 20:40:34,923 - fewer_activations - INFO - Epoch 24, Loss: 3.1968195689519248, Acc: 0.0000, Val Acc: 0.4548, Val Loss: 2.2657
+2024-05-23 20:47:44,849 - fewer_activations - INFO - Evaluating - Acc: 0.4683, Loss: 2.2206
+2024-05-23 20:47:44,853 - fewer_activations - INFO - Epoch 25, Loss: 3.2053837615648906, Acc: 0.0000, Val Acc: 0.4683, Val Loss: 2.2206
+2024-05-23 20:54:59,648 - fewer_activations - INFO - Evaluating - Acc: 0.4595, Loss: 2.2510
+2024-05-23 20:54:59,651 - fewer_activations - INFO - Epoch 26, Loss: 3.194696484963099, Acc: 0.0000, Val Acc: 0.4595, Val Loss: 2.2510
+2024-05-23 21:02:06,769 - fewer_activations - INFO - Evaluating - Acc: 0.4638, Loss: 2.2272
+2024-05-23 21:02:06,774 - fewer_activations - INFO - Epoch 27, Loss: 3.199332535266876, Acc: 0.0000, Val Acc: 0.4638, Val Loss: 2.2272
+2024-05-23 21:09:12,275 - fewer_activations - INFO - Evaluating - Acc: 0.4510, Loss: 2.2504
+2024-05-23 21:09:12,280 - fewer_activations - INFO - Epoch 28, Loss: 3.196798674583435, Acc: 0.0000, Val Acc: 0.4510, Val Loss: 2.2504
+2024-05-23 21:16:20,694 - fewer_activations - INFO - Evaluating - Acc: 0.4470, Loss: 2.2945
+2024-05-23 21:16:20,698 - fewer_activations - INFO - Epoch 29, Loss: 3.229567612965902, Acc: 0.0000, Val Acc: 0.4470, Val Loss: 2.2945
+2024-05-23 21:23:27,821 - fewer_activations - INFO - Evaluating - Acc: 0.4588, Loss: 2.2433
+2024-05-23 21:23:27,825 - fewer_activations - INFO - Epoch 30, Loss: 3.1905681468645732, Acc: 0.0000, Val Acc: 0.4588, Val Loss: 2.2433
+2024-05-23 21:23:28,088 - fewer_activations - INFO - Model saved with val accuracy: 45.88%
+2024-05-23 21:23:28,088 - fewer_activations - INFO - Finished Training

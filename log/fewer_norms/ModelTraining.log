@@ -1,0 +1,63 @@
+2024-05-23 10:29:32,498 - fewer_norms - INFO - fewer_norms starts training !
+2024-05-23 10:39:22,275 - fewer_norms - INFO - Evaluating - Acc: 0.0113, Loss: 7.2513
+2024-05-23 10:39:22,285 - fewer_norms - INFO - Epoch 1, Loss: 19.989912163734434, Acc: 0.0000, Val Acc: 0.0113, Val Loss: 7.2513
+2024-05-23 10:46:19,474 - fewer_norms - INFO - Evaluating - Acc: 0.0187, Loss: 4.6775
+2024-05-23 10:46:19,479 - fewer_norms - INFO - Epoch 2, Loss: 4.591976768175761, Acc: 0.0000, Val Acc: 0.0187, Val Loss: 4.6775
+2024-05-23 10:53:22,865 - fewer_norms - INFO - Evaluating - Acc: 0.0105, Loss: 5038.5309
+2024-05-23 10:53:22,869 - fewer_norms - INFO - Epoch 3, Loss: 49.85962645880381, Acc: 0.0000, Val Acc: 0.0105, Val Loss: 5038.5309
+2024-05-23 11:00:24,990 - fewer_norms - INFO - Evaluating - Acc: 0.0103, Loss: 16771.9666
+2024-05-23 11:00:24,997 - fewer_norms - INFO - Epoch 4, Loss: 4.67951999759674, Acc: 0.0000, Val Acc: 0.0103, Val Loss: 16771.9666
+2024-05-23 11:07:32,894 - fewer_norms - INFO - Evaluating - Acc: 0.0130, Loss: 49893.4745
+2024-05-23 11:07:32,897 - fewer_norms - INFO - Epoch 5, Loss: 4.665513657887777, Acc: 0.0000, Val Acc: 0.0130, Val Loss: 49893.4745
+2024-05-23 11:14:35,843 - fewer_norms - INFO - Evaluating - Acc: 0.0185, Loss: 18.5697
+2024-05-23 11:14:35,846 - fewer_norms - INFO - Epoch 6, Loss: 4.620521247227987, Acc: 0.0000, Val Acc: 0.0185, Val Loss: 18.5697
+2024-05-23 11:21:38,854 - fewer_norms - INFO - Evaluating - Acc: 0.0247, Loss: 8.2380
+2024-05-23 11:21:38,859 - fewer_norms - INFO - Epoch 7, Loss: 4.544464611053467, Acc: 0.0000, Val Acc: 0.0247, Val Loss: 8.2380
+2024-05-23 11:28:40,793 - fewer_norms - INFO - Evaluating - Acc: 0.0273, Loss: 5.0003
+2024-05-23 11:28:40,803 - fewer_norms - INFO - Epoch 8, Loss: 4.527359945297241, Acc: 0.0000, Val Acc: 0.0273, Val Loss: 5.0003
+2024-05-23 11:35:43,640 - fewer_norms - INFO - Evaluating - Acc: 0.0333, Loss: 9.2127
+2024-05-23 11:35:43,643 - fewer_norms - INFO - Epoch 9, Loss: 4.519561253229777, Acc: 0.0000, Val Acc: 0.0333, Val Loss: 9.2127
+2024-05-23 11:42:40,503 - fewer_norms - INFO - Evaluating - Acc: 0.0380, Loss: 4.5292
+2024-05-23 11:42:40,506 - fewer_norms - INFO - Epoch 10, Loss: 4.501770819981893, Acc: 0.0000, Val Acc: 0.0380, Val Loss: 4.5292
+2024-05-23 11:49:39,038 - fewer_norms - INFO - Evaluating - Acc: 0.0467, Loss: 4.3067
+2024-05-23 11:49:39,042 - fewer_norms - INFO - Epoch 11, Loss: 4.46394869740804, Acc: 0.0000, Val Acc: 0.0467, Val Loss: 4.3067
+2024-05-23 11:56:40,156 - fewer_norms - INFO - Evaluating - Acc: 0.0502, Loss: 4.2853
+2024-05-23 11:56:40,997 - fewer_norms - INFO - Epoch 12, Loss: 4.435365080197652, Acc: 0.0000, Val Acc: 0.0502, Val Loss: 4.2853
+2024-05-23 12:03:45,687 - fewer_norms - INFO - Evaluating - Acc: 0.0575, Loss: 4.2071
+2024-05-23 12:03:45,690 - fewer_norms - INFO - Epoch 13, Loss: 4.406240049997965, Acc: 0.0000, Val Acc: 0.0575, Val Loss: 4.2071
+2024-05-23 12:10:49,180 - fewer_norms - INFO - Evaluating - Acc: 0.0597, Loss: 4.1963
+2024-05-23 12:10:49,183 - fewer_norms - INFO - Epoch 14, Loss: 4.39118839263916, Acc: 0.0000, Val Acc: 0.0597, Val Loss: 4.1963
+2024-05-23 12:17:50,884 - fewer_norms - INFO - Evaluating - Acc: 0.0630, Loss: 4.1772
+2024-05-23 12:17:50,894 - fewer_norms - INFO - Epoch 15, Loss: 4.383848613262177, Acc: 0.0000, Val Acc: 0.0630, Val Loss: 4.1772
+2024-05-23 12:24:57,738 - fewer_norms - INFO - Evaluating - Acc: 0.0708, Loss: 4.1486
+2024-05-23 12:24:57,742 - fewer_norms - INFO - Epoch 16, Loss: 4.373079291025798, Acc: 0.0000, Val Acc: 0.0708, Val Loss: 4.1486
+2024-05-23 12:32:02,134 - fewer_norms - INFO - Evaluating - Acc: 0.0725, Loss: 4.1295
+2024-05-23 12:32:02,138 - fewer_norms - INFO - Epoch 17, Loss: 4.3597407102584835, Acc: 0.0000, Val Acc: 0.0725, Val Loss: 4.1295
+2024-05-23 12:39:06,413 - fewer_norms - INFO - Evaluating - Acc: 0.0730, Loss: 4.1020
+2024-05-23 12:39:06,417 - fewer_norms - INFO - Epoch 18, Loss: 4.345753936131795, Acc: 0.0000, Val Acc: 0.0730, Val Loss: 4.1020
+2024-05-23 12:46:10,306 - fewer_norms - INFO - Evaluating - Acc: 0.0737, Loss: 4.5280
+2024-05-23 12:46:10,318 - fewer_norms - INFO - Epoch 19, Loss: 4.336498660723368, Acc: 0.0000, Val Acc: 0.0737, Val Loss: 4.5280
+2024-05-23 12:53:12,457 - fewer_norms - INFO - Evaluating - Acc: 0.0722, Loss: 4.0939
+2024-05-23 12:53:12,459 - fewer_norms - INFO - Epoch 20, Loss: 4.335445846557617, Acc: 0.0000, Val Acc: 0.0722, Val Loss: 4.0939
+2024-05-23 13:00:15,428 - fewer_norms - INFO - Evaluating - Acc: 0.0728, Loss: 4.0989
+2024-05-23 13:00:15,441 - fewer_norms - INFO - Epoch 21, Loss: 4.331542679945628, Acc: 0.0000, Val Acc: 0.0728, Val Loss: 4.0989
+2024-05-23 13:07:18,490 - fewer_norms - INFO - Evaluating - Acc: 0.0723, Loss: 4.0900
+2024-05-23 13:07:18,493 - fewer_norms - INFO - Epoch 22, Loss: 4.329014227231344, Acc: 0.0000, Val Acc: 0.0723, Val Loss: 4.0900
+2024-05-23 13:14:22,231 - fewer_norms - INFO - Evaluating - Acc: 0.0773, Loss: 4.0836
+2024-05-23 13:14:22,234 - fewer_norms - INFO - Epoch 23, Loss: 4.329988761425018, Acc: 0.0000, Val Acc: 0.0773, Val Loss: 4.0836
+2024-05-23 13:21:28,096 - fewer_norms - INFO - Evaluating - Acc: 0.0692, Loss: 5.3912
+2024-05-23 13:21:28,099 - fewer_norms - INFO - Epoch 24, Loss: 4.328835675239563, Acc: 0.0000, Val Acc: 0.0692, Val Loss: 5.3912
+2024-05-23 13:28:30,630 - fewer_norms - INFO - Evaluating - Acc: 0.0748, Loss: 4.1539
+2024-05-23 13:28:30,633 - fewer_norms - INFO - Epoch 25, Loss: 4.329498179594676, Acc: 0.0000, Val Acc: 0.0748, Val Loss: 4.1539
+2024-05-23 13:35:32,793 - fewer_norms - INFO - Evaluating - Acc: 0.0715, Loss: 4.9900
+2024-05-23 13:35:32,803 - fewer_norms - INFO - Epoch 26, Loss: 4.328615583260854, Acc: 0.0000, Val Acc: 0.0715, Val Loss: 4.9900
+2024-05-23 13:42:36,926 - fewer_norms - INFO - Evaluating - Acc: 0.0732, Loss: 4.0927
+2024-05-23 13:42:36,930 - fewer_norms - INFO - Epoch 27, Loss: 4.326964958985647, Acc: 0.0000, Val Acc: 0.0732, Val Loss: 4.0927
+2024-05-23 13:49:40,725 - fewer_norms - INFO - Evaluating - Acc: 0.0743, Loss: 4.0844
+2024-05-23 13:49:40,729 - fewer_norms - INFO - Epoch 28, Loss: 4.328003749529521, Acc: 0.0000, Val Acc: 0.0743, Val Loss: 4.0844
+2024-05-23 13:56:45,506 - fewer_norms - INFO - Evaluating - Acc: 0.0750, Loss: 4.0894
+2024-05-23 13:56:45,509 - fewer_norms - INFO - Epoch 29, Loss: 4.331478105703989, Acc: 0.0000, Val Acc: 0.0750, Val Loss: 4.0894
+2024-05-23 14:03:48,094 - fewer_norms - INFO - Evaluating - Acc: 0.0772, Loss: 4.0815
+2024-05-23 14:03:48,100 - fewer_norms - INFO - Epoch 30, Loss: 4.3336420000394185, Acc: 0.0000, Val Acc: 0.0772, Val Loss: 4.0815
+2024-05-23 14:03:48,665 - fewer_norms - INFO - Model saved with val accuracy: 7.72%
+2024-05-23 14:03:48,665 - fewer_norms - INFO - Finished Training

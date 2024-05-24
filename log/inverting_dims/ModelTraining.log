@@ -1,0 +1,63 @@
+2024-05-23 17:34:43,558 - inverting_dims - INFO - inverting_dims starts training !
+2024-05-23 17:47:59,974 - inverting_dims - INFO - Evaluating - Acc: 0.0685, Loss: 4.1682
+2024-05-23 17:47:59,978 - inverting_dims - INFO - Epoch 1, Loss: 4.555654860178629, Acc: 0.0000, Val Acc: 0.0685, Val Loss: 4.1682
+2024-05-23 18:01:16,955 - inverting_dims - INFO - Evaluating - Acc: 0.1042, Loss: 3.9096
+2024-05-23 18:01:16,959 - inverting_dims - INFO - Epoch 2, Loss: 4.263394982179006, Acc: 0.0000, Val Acc: 0.1042, Val Loss: 3.9096
+2024-05-23 18:14:34,992 - inverting_dims - INFO - Evaluating - Acc: 0.1505, Loss: 3.6285
+2024-05-23 18:14:34,995 - inverting_dims - INFO - Epoch 3, Loss: 4.107651464939117, Acc: 0.0000, Val Acc: 0.1505, Val Loss: 3.6285
+2024-05-23 18:27:52,217 - inverting_dims - INFO - Evaluating - Acc: 0.2032, Loss: 3.3590
+2024-05-23 18:27:52,220 - inverting_dims - INFO - Epoch 4, Loss: 3.9966653838157655, Acc: 0.0000, Val Acc: 0.2032, Val Loss: 3.3590
+2024-05-23 18:41:09,245 - inverting_dims - INFO - Evaluating - Acc: 0.2190, Loss: 3.2679
+2024-05-23 18:41:09,247 - inverting_dims - INFO - Epoch 5, Loss: 3.907313808123271, Acc: 0.0000, Val Acc: 0.2190, Val Loss: 3.2679
+2024-05-23 18:54:26,566 - inverting_dims - INFO - Evaluating - Acc: 0.2595, Loss: 3.1336
+2024-05-23 18:54:26,571 - inverting_dims - INFO - Epoch 6, Loss: 3.837349548180898, Acc: 0.0000, Val Acc: 0.2595, Val Loss: 3.1336
+2024-05-23 19:07:44,785 - inverting_dims - INFO - Evaluating - Acc: 0.3528, Loss: 2.6818
+2024-05-23 19:07:44,788 - inverting_dims - INFO - Epoch 7, Loss: 3.627001152038574, Acc: 0.0000, Val Acc: 0.3528, Val Loss: 2.6818
+2024-05-23 19:21:03,926 - inverting_dims - INFO - Evaluating - Acc: 0.3560, Loss: 2.6458
+2024-05-23 19:21:03,930 - inverting_dims - INFO - Epoch 8, Loss: 3.563060077985128, Acc: 0.0000, Val Acc: 0.3560, Val Loss: 2.6458
+2024-05-23 19:34:20,925 - inverting_dims - INFO - Evaluating - Acc: 0.3755, Loss: 2.5627
+2024-05-23 19:34:20,929 - inverting_dims - INFO - Epoch 9, Loss: 3.504776296933492, Acc: 0.0000, Val Acc: 0.3755, Val Loss: 2.5627
+2024-05-23 19:47:39,502 - inverting_dims - INFO - Evaluating - Acc: 0.3992, Loss: 2.4787
+2024-05-23 19:47:39,505 - inverting_dims - INFO - Epoch 10, Loss: 3.453766736984253, Acc: 0.0000, Val Acc: 0.3992, Val Loss: 2.4787
+2024-05-23 20:00:57,656 - inverting_dims - INFO - Evaluating - Acc: 0.4190, Loss: 2.3905
+2024-05-23 20:00:57,664 - inverting_dims - INFO - Epoch 11, Loss: 3.3711610509554544, Acc: 0.0000, Val Acc: 0.4190, Val Loss: 2.3905
+2024-05-23 20:14:13,990 - inverting_dims - INFO - Evaluating - Acc: 0.4463, Loss: 2.3143
+2024-05-23 20:14:13,993 - inverting_dims - INFO - Epoch 12, Loss: 3.3272294947306316, Acc: 0.0000, Val Acc: 0.4463, Val Loss: 2.3143
+2024-05-23 20:27:30,857 - inverting_dims - INFO - Evaluating - Acc: 0.4498, Loss: 2.2785
+2024-05-23 20:27:30,861 - inverting_dims - INFO - Epoch 13, Loss: 3.2590281887849173, Acc: 0.0000, Val Acc: 0.4498, Val Loss: 2.2785
+2024-05-23 20:40:49,023 - inverting_dims - INFO - Evaluating - Acc: 0.4620, Loss: 2.2427
+2024-05-23 20:40:49,027 - inverting_dims - INFO - Epoch 14, Loss: 3.2233721940517426, Acc: 0.0000, Val Acc: 0.4620, Val Loss: 2.2427
+2024-05-23 20:54:07,115 - inverting_dims - INFO - Evaluating - Acc: 0.4678, Loss: 2.2203
+2024-05-23 20:54:07,119 - inverting_dims - INFO - Epoch 15, Loss: 3.2294650637308755, Acc: 0.0000, Val Acc: 0.4678, Val Loss: 2.2203
+2024-05-23 21:07:26,488 - inverting_dims - INFO - Evaluating - Acc: 0.4660, Loss: 2.2361
+2024-05-23 21:07:26,492 - inverting_dims - INFO - Epoch 16, Loss: 3.2075716654459634, Acc: 0.0000, Val Acc: 0.4660, Val Loss: 2.2361
+2024-05-23 21:20:44,230 - inverting_dims - INFO - Evaluating - Acc: 0.4777, Loss: 2.1691
+2024-05-23 21:20:44,234 - inverting_dims - INFO - Epoch 17, Loss: 3.177486300388972, Acc: 0.0000, Val Acc: 0.4777, Val Loss: 2.1691
+2024-05-23 21:34:01,643 - inverting_dims - INFO - Evaluating - Acc: 0.4730, Loss: 2.1719
+2024-05-23 21:34:01,645 - inverting_dims - INFO - Epoch 18, Loss: 3.155190400918325, Acc: 0.0000, Val Acc: 0.4730, Val Loss: 2.1719
+2024-05-23 21:47:14,365 - inverting_dims - INFO - Evaluating - Acc: 0.4735, Loss: 2.1699
+2024-05-23 21:47:14,370 - inverting_dims - INFO - Epoch 19, Loss: 3.1520334572792055, Acc: 0.0000, Val Acc: 0.4735, Val Loss: 2.1699
+2024-05-23 22:00:25,705 - inverting_dims - INFO - Evaluating - Acc: 0.4620, Loss: 2.2297
+2024-05-23 22:00:25,708 - inverting_dims - INFO - Epoch 20, Loss: 3.1645272369384765, Acc: 0.0000, Val Acc: 0.4620, Val Loss: 2.2297
+2024-05-23 22:13:37,030 - inverting_dims - INFO - Evaluating - Acc: 0.4817, Loss: 2.1367
+2024-05-23 22:13:37,034 - inverting_dims - INFO - Epoch 21, Loss: 3.1421142433484395, Acc: 0.0000, Val Acc: 0.4817, Val Loss: 2.1367
+2024-05-23 22:26:48,951 - inverting_dims - INFO - Evaluating - Acc: 0.4715, Loss: 2.1848
+2024-05-23 22:26:48,955 - inverting_dims - INFO - Epoch 22, Loss: 3.1552038162549336, Acc: 0.0000, Val Acc: 0.4715, Val Loss: 2.1848
+2024-05-23 22:40:00,000 - inverting_dims - INFO - Evaluating - Acc: 0.4692, Loss: 2.2166
+2024-05-23 22:40:00,004 - inverting_dims - INFO - Epoch 23, Loss: 3.1376118636926016, Acc: 0.0000, Val Acc: 0.4692, Val Loss: 2.2166
+2024-05-23 22:53:10,975 - inverting_dims - INFO - Evaluating - Acc: 0.4717, Loss: 2.1748
+2024-05-23 22:53:10,979 - inverting_dims - INFO - Epoch 24, Loss: 3.14716450270017, Acc: 0.0000, Val Acc: 0.4717, Val Loss: 2.1748
+2024-05-23 23:06:22,905 - inverting_dims - INFO - Evaluating - Acc: 0.4767, Loss: 2.1801
+2024-05-23 23:06:22,909 - inverting_dims - INFO - Epoch 25, Loss: 3.1255455087820687, Acc: 0.0000, Val Acc: 0.4767, Val Loss: 2.1801
+2024-05-23 23:19:34,575 - inverting_dims - INFO - Evaluating - Acc: 0.4743, Loss: 2.1750
+2024-05-23 23:19:34,585 - inverting_dims - INFO - Epoch 26, Loss: 3.1556539237499237, Acc: 0.0000, Val Acc: 0.4743, Val Loss: 2.1750
+2024-05-23 23:32:45,365 - inverting_dims - INFO - Evaluating - Acc: 0.4725, Loss: 2.1700
+2024-05-23 23:32:45,369 - inverting_dims - INFO - Epoch 27, Loss: 3.141910751740138, Acc: 0.0000, Val Acc: 0.4725, Val Loss: 2.1700
+2024-05-23 23:45:56,149 - inverting_dims - INFO - Evaluating - Acc: 0.4785, Loss: 2.1486
+2024-05-23 23:45:56,153 - inverting_dims - INFO - Epoch 28, Loss: 3.163150085290273, Acc: 0.0000, Val Acc: 0.4785, Val Loss: 2.1486
+2024-05-23 23:59:07,865 - inverting_dims - INFO - Evaluating - Acc: 0.4775, Loss: 2.1836
+2024-05-23 23:59:07,869 - inverting_dims - INFO - Epoch 29, Loss: 3.125547371228536, Acc: 0.0000, Val Acc: 0.4775, Val Loss: 2.1836
+2024-05-24 00:12:19,230 - inverting_dims - INFO - Evaluating - Acc: 0.4693, Loss: 2.1992
+2024-05-24 00:12:19,233 - inverting_dims - INFO - Epoch 30, Loss: 3.1426365032990775, Acc: 0.0000, Val Acc: 0.4693, Val Loss: 2.1992
+2024-05-24 00:12:19,446 - inverting_dims - INFO - Model saved with val accuracy: 46.93%
+2024-05-24 00:12:19,446 - inverting_dims - INFO - Finished Training

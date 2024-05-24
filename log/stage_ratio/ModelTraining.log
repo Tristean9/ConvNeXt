@@ -1,0 +1,63 @@
+2024-05-23 14:15:02,340 - stage_ratio - INFO - stage_ratio starts training !
+2024-05-23 14:22:37,050 - stage_ratio - INFO - Evaluating - Acc: 0.0442, Loss: 4.5328
+2024-05-23 14:22:37,053 - stage_ratio - INFO - Epoch 1, Loss: 4.668754535357158, Acc: 0.0000, Val Acc: 0.0442, Val Loss: 4.5328
+2024-05-23 14:30:15,748 - stage_ratio - INFO - Evaluating - Acc: 0.0485, Loss: 4.3639
+2024-05-23 14:30:15,752 - stage_ratio - INFO - Epoch 2, Loss: 4.426492894808451, Acc: 0.0000, Val Acc: 0.0485, Val Loss: 4.3639
+2024-05-23 14:37:56,419 - stage_ratio - INFO - Evaluating - Acc: 0.0685, Loss: 4.1614
+2024-05-23 14:37:56,423 - stage_ratio - INFO - Epoch 3, Loss: 4.360996791362762, Acc: 0.0000, Val Acc: 0.0685, Val Loss: 4.1614
+2024-05-23 14:45:35,074 - stage_ratio - INFO - Evaluating - Acc: 0.0860, Loss: 4.0757
+2024-05-23 14:45:35,077 - stage_ratio - INFO - Epoch 4, Loss: 4.301118052323659, Acc: 0.0000, Val Acc: 0.0860, Val Loss: 4.0757
+2024-05-23 14:53:15,139 - stage_ratio - INFO - Evaluating - Acc: 0.0930, Loss: 3.9680
+2024-05-23 14:53:15,142 - stage_ratio - INFO - Epoch 5, Loss: 4.246337074915568, Acc: 0.0000, Val Acc: 0.0930, Val Loss: 3.9680
+2024-05-23 15:00:55,242 - stage_ratio - INFO - Evaluating - Acc: 0.1085, Loss: 3.8295
+2024-05-23 15:00:55,245 - stage_ratio - INFO - Epoch 6, Loss: 4.203806822617849, Acc: 0.0000, Val Acc: 0.1085, Val Loss: 3.8295
+2024-05-23 15:08:35,889 - stage_ratio - INFO - Evaluating - Acc: 0.1650, Loss: 3.5760
+2024-05-23 15:08:35,892 - stage_ratio - INFO - Epoch 7, Loss: 4.083610776424408, Acc: 0.0000, Val Acc: 0.1650, Val Loss: 3.5760
+2024-05-23 15:16:12,532 - stage_ratio - INFO - Evaluating - Acc: 0.1867, Loss: 3.4695
+2024-05-23 15:16:12,535 - stage_ratio - INFO - Epoch 8, Loss: 4.047122714042664, Acc: 0.0000, Val Acc: 0.1867, Val Loss: 3.4695
+2024-05-23 15:23:54,614 - stage_ratio - INFO - Evaluating - Acc: 0.2053, Loss: 3.4003
+2024-05-23 15:23:54,617 - stage_ratio - INFO - Epoch 9, Loss: 4.006835458596547, Acc: 0.0000, Val Acc: 0.2053, Val Loss: 3.4003
+2024-05-23 15:31:35,298 - stage_ratio - INFO - Evaluating - Acc: 0.2227, Loss: 3.2745
+2024-05-23 15:31:35,303 - stage_ratio - INFO - Epoch 10, Loss: 3.946513828754425, Acc: 0.0000, Val Acc: 0.2227, Val Loss: 3.2745
+2024-05-23 15:39:15,547 - stage_ratio - INFO - Evaluating - Acc: 0.2663, Loss: 3.0741
+2024-05-23 15:39:15,551 - stage_ratio - INFO - Epoch 11, Loss: 3.862080217997233, Acc: 0.0000, Val Acc: 0.2663, Val Loss: 3.0741
+2024-05-23 15:46:53,502 - stage_ratio - INFO - Evaluating - Acc: 0.2812, Loss: 3.0158
+2024-05-23 15:46:53,505 - stage_ratio - INFO - Epoch 12, Loss: 3.7929171997706095, Acc: 0.0000, Val Acc: 0.2812, Val Loss: 3.0158
+2024-05-23 15:54:32,324 - stage_ratio - INFO - Evaluating - Acc: 0.3147, Loss: 2.8711
+2024-05-23 15:54:32,650 - stage_ratio - INFO - Epoch 13, Loss: 3.699625924110413, Acc: 0.0000, Val Acc: 0.3147, Val Loss: 2.8711
+2024-05-23 16:02:07,615 - stage_ratio - INFO - Evaluating - Acc: 0.3217, Loss: 2.8373
+2024-05-23 16:02:07,618 - stage_ratio - INFO - Epoch 14, Loss: 3.6816545712153115, Acc: 0.0000, Val Acc: 0.3217, Val Loss: 2.8373
+2024-05-23 16:09:47,452 - stage_ratio - INFO - Evaluating - Acc: 0.3230, Loss: 2.8110
+2024-05-23 16:09:47,456 - stage_ratio - INFO - Epoch 15, Loss: 3.668581476688385, Acc: 0.0000, Val Acc: 0.3230, Val Loss: 2.8110
+2024-05-23 16:17:26,235 - stage_ratio - INFO - Evaluating - Acc: 0.3247, Loss: 2.8052
+2024-05-23 16:17:27,082 - stage_ratio - INFO - Epoch 16, Loss: 3.664636190255483, Acc: 0.0000, Val Acc: 0.3247, Val Loss: 2.8052
+2024-05-23 16:25:07,802 - stage_ratio - INFO - Evaluating - Acc: 0.3343, Loss: 2.7772
+2024-05-23 16:25:07,805 - stage_ratio - INFO - Epoch 17, Loss: 3.64337357711792, Acc: 0.0000, Val Acc: 0.3343, Val Loss: 2.7772
+2024-05-23 16:32:45,883 - stage_ratio - INFO - Evaluating - Acc: 0.3232, Loss: 2.7944
+2024-05-23 16:32:45,887 - stage_ratio - INFO - Epoch 18, Loss: 3.648572957197825, Acc: 0.0000, Val Acc: 0.3232, Val Loss: 2.7944
+2024-05-23 16:40:26,510 - stage_ratio - INFO - Evaluating - Acc: 0.3220, Loss: 2.7986
+2024-05-23 16:40:26,517 - stage_ratio - INFO - Epoch 19, Loss: 3.638342931906382, Acc: 0.0000, Val Acc: 0.3220, Val Loss: 2.7986
+2024-05-23 16:48:03,447 - stage_ratio - INFO - Evaluating - Acc: 0.3368, Loss: 2.7718
+2024-05-23 16:48:03,453 - stage_ratio - INFO - Epoch 20, Loss: 3.636130575974782, Acc: 0.0000, Val Acc: 0.3368, Val Loss: 2.7718
+2024-05-23 16:55:41,892 - stage_ratio - INFO - Evaluating - Acc: 0.3260, Loss: 2.7710
+2024-05-23 16:55:41,895 - stage_ratio - INFO - Epoch 21, Loss: 3.623553970972697, Acc: 0.0000, Val Acc: 0.3260, Val Loss: 2.7710
+2024-05-23 17:03:23,087 - stage_ratio - INFO - Evaluating - Acc: 0.3317, Loss: 2.7744
+2024-05-23 17:03:23,092 - stage_ratio - INFO - Epoch 22, Loss: 3.637391471068064, Acc: 0.0000, Val Acc: 0.3317, Val Loss: 2.7744
+2024-05-23 17:11:00,114 - stage_ratio - INFO - Evaluating - Acc: 0.3265, Loss: 2.7936
+2024-05-23 17:11:00,117 - stage_ratio - INFO - Epoch 23, Loss: 3.61190730714798, Acc: 0.0000, Val Acc: 0.3265, Val Loss: 2.7936
+2024-05-23 17:18:38,047 - stage_ratio - INFO - Evaluating - Acc: 0.3362, Loss: 2.7555
+2024-05-23 17:18:38,051 - stage_ratio - INFO - Epoch 24, Loss: 3.627595286210378, Acc: 0.0000, Val Acc: 0.3362, Val Loss: 2.7555
+2024-05-23 17:26:20,828 - stage_ratio - INFO - Evaluating - Acc: 0.3345, Loss: 2.7695
+2024-05-23 17:26:20,831 - stage_ratio - INFO - Epoch 25, Loss: 3.620640717506409, Acc: 0.0000, Val Acc: 0.3345, Val Loss: 2.7695
+2024-05-23 17:33:57,317 - stage_ratio - INFO - Evaluating - Acc: 0.3373, Loss: 2.7531
+2024-05-23 17:33:57,322 - stage_ratio - INFO - Epoch 26, Loss: 3.6292591624259947, Acc: 0.0000, Val Acc: 0.3373, Val Loss: 2.7531
+2024-05-23 17:41:38,916 - stage_ratio - INFO - Evaluating - Acc: 0.3332, Loss: 2.7736
+2024-05-23 17:41:38,919 - stage_ratio - INFO - Epoch 27, Loss: 3.6270588714281717, Acc: 0.0000, Val Acc: 0.3332, Val Loss: 2.7736
+2024-05-23 17:49:17,907 - stage_ratio - INFO - Evaluating - Acc: 0.3335, Loss: 2.7853
+2024-05-23 17:49:17,911 - stage_ratio - INFO - Epoch 28, Loss: 3.6326796348889667, Acc: 0.0000, Val Acc: 0.3335, Val Loss: 2.7853
+2024-05-23 17:56:57,783 - stage_ratio - INFO - Evaluating - Acc: 0.3347, Loss: 2.7777
+2024-05-23 17:56:57,788 - stage_ratio - INFO - Epoch 29, Loss: 3.6166641163825988, Acc: 0.0000, Val Acc: 0.3347, Val Loss: 2.7777
+2024-05-23 18:04:34,267 - stage_ratio - INFO - Evaluating - Acc: 0.3358, Loss: 2.7529
+2024-05-23 18:04:34,271 - stage_ratio - INFO - Epoch 30, Loss: 3.6277715609868366, Acc: 0.0000, Val Acc: 0.3358, Val Loss: 2.7529
+2024-05-23 18:04:34,518 - stage_ratio - INFO - Model saved with val accuracy: 33.58%
+2024-05-23 18:04:34,518 - stage_ratio - INFO - Finished Training

@@ -1,0 +1,63 @@
+2024-05-23 17:45:40,427 - convnext - INFO - convnext starts training !
+2024-05-23 17:54:58,259 - convnext - INFO - Evaluating - Acc: 0.0482, Loss: 4.3237
+2024-05-23 17:54:58,263 - convnext - INFO - Epoch 1, Loss: 4.567291496276855, Acc: 0.0000, Val Acc: 0.0482, Val Loss: 4.3237
+2024-05-23 18:04:13,125 - convnext - INFO - Evaluating - Acc: 0.0607, Loss: 4.2357
+2024-05-23 18:04:13,128 - convnext - INFO - Epoch 2, Loss: 4.411716255346934, Acc: 0.0000, Val Acc: 0.0607, Val Loss: 4.2357
+2024-05-23 18:13:29,414 - convnext - INFO - Evaluating - Acc: 0.0972, Loss: 3.9711
+2024-05-23 18:13:29,418 - convnext - INFO - Epoch 3, Loss: 4.326242444992065, Acc: 0.0000, Val Acc: 0.0972, Val Loss: 3.9711
+2024-05-23 18:22:46,842 - convnext - INFO - Evaluating - Acc: 0.1220, Loss: 3.8654
+2024-05-23 18:22:46,847 - convnext - INFO - Epoch 4, Loss: 4.259946671326955, Acc: 0.0000, Val Acc: 0.1220, Val Loss: 3.8654
+2024-05-23 18:32:02,800 - convnext - INFO - Evaluating - Acc: 0.1332, Loss: 3.7571
+2024-05-23 18:32:02,804 - convnext - INFO - Epoch 5, Loss: 4.205929803371429, Acc: 0.0000, Val Acc: 0.1332, Val Loss: 3.7571
+2024-05-23 18:41:19,911 - convnext - INFO - Evaluating - Acc: 0.1477, Loss: 3.6922
+2024-05-23 18:41:19,915 - convnext - INFO - Epoch 6, Loss: 4.14717072057724, Acc: 0.0000, Val Acc: 0.1477, Val Loss: 3.6922
+2024-05-23 18:50:37,464 - convnext - INFO - Evaluating - Acc: 0.2053, Loss: 3.4358
+2024-05-23 18:50:37,474 - convnext - INFO - Epoch 7, Loss: 3.986454521973928, Acc: 0.0000, Val Acc: 0.2053, Val Loss: 3.4358
+2024-05-23 18:59:53,584 - convnext - INFO - Evaluating - Acc: 0.2115, Loss: 3.3558
+2024-05-23 18:59:53,588 - convnext - INFO - Epoch 8, Loss: 3.944468255996704, Acc: 0.0000, Val Acc: 0.2115, Val Loss: 3.3558
+2024-05-23 19:09:10,898 - convnext - INFO - Evaluating - Acc: 0.2195, Loss: 3.3265
+2024-05-23 19:09:10,902 - convnext - INFO - Epoch 9, Loss: 3.914658742904663, Acc: 0.0000, Val Acc: 0.2195, Val Loss: 3.3265
+2024-05-23 19:18:27,710 - convnext - INFO - Evaluating - Acc: 0.2318, Loss: 3.2765
+2024-05-23 19:18:27,714 - convnext - INFO - Epoch 10, Loss: 3.8977332717577617, Acc: 0.0000, Val Acc: 0.2318, Val Loss: 3.2765
+2024-05-23 19:27:45,368 - convnext - INFO - Evaluating - Acc: 0.2458, Loss: 3.2259
+2024-05-23 19:27:45,372 - convnext - INFO - Epoch 11, Loss: 3.877288076400757, Acc: 0.0000, Val Acc: 0.2458, Val Loss: 3.2259
+2024-05-23 19:37:01,853 - convnext - INFO - Evaluating - Acc: 0.2563, Loss: 3.2118
+2024-05-23 19:37:01,856 - convnext - INFO - Epoch 12, Loss: 3.841041891892751, Acc: 0.0000, Val Acc: 0.2563, Val Loss: 3.2118
+2024-05-23 19:46:17,261 - convnext - INFO - Evaluating - Acc: 0.2603, Loss: 3.1579
+2024-05-23 19:46:17,264 - convnext - INFO - Epoch 13, Loss: 3.8087789096832276, Acc: 0.0000, Val Acc: 0.2603, Val Loss: 3.1579
+2024-05-23 19:55:33,057 - convnext - INFO - Evaluating - Acc: 0.2590, Loss: 3.1457
+2024-05-23 19:55:33,061 - convnext - INFO - Epoch 14, Loss: 3.8021532794634503, Acc: 0.0000, Val Acc: 0.2590, Val Loss: 3.1457
+2024-05-23 20:04:47,412 - convnext - INFO - Evaluating - Acc: 0.2630, Loss: 3.1355
+2024-05-23 20:04:47,417 - convnext - INFO - Epoch 15, Loss: 3.800518877029419, Acc: 0.0000, Val Acc: 0.2630, Val Loss: 3.1355
+2024-05-23 20:14:03,634 - convnext - INFO - Evaluating - Acc: 0.2650, Loss: 3.1354
+2024-05-23 20:14:03,638 - convnext - INFO - Epoch 16, Loss: 3.7897632349332175, Acc: 0.0000, Val Acc: 0.2650, Val Loss: 3.1354
+2024-05-23 20:23:19,575 - convnext - INFO - Evaluating - Acc: 0.2657, Loss: 3.1136
+2024-05-23 20:23:19,578 - convnext - INFO - Epoch 17, Loss: 3.783307396411896, Acc: 0.0000, Val Acc: 0.2657, Val Loss: 3.1136
+2024-05-23 20:32:36,026 - convnext - INFO - Evaluating - Acc: 0.2698, Loss: 3.1240
+2024-05-23 20:32:36,029 - convnext - INFO - Epoch 18, Loss: 3.783336600621541, Acc: 0.0000, Val Acc: 0.2698, Val Loss: 3.1240
+2024-05-23 20:41:52,847 - convnext - INFO - Evaluating - Acc: 0.2680, Loss: 3.1090
+2024-05-23 20:41:52,851 - convnext - INFO - Epoch 19, Loss: 3.76988618294398, Acc: 0.0000, Val Acc: 0.2680, Val Loss: 3.1090
+2024-05-23 20:51:09,783 - convnext - INFO - Evaluating - Acc: 0.2680, Loss: 3.1131
+2024-05-23 20:51:09,787 - convnext - INFO - Epoch 20, Loss: 3.779499763806661, Acc: 0.0000, Val Acc: 0.2680, Val Loss: 3.1131
+2024-05-23 21:00:26,462 - convnext - INFO - Evaluating - Acc: 0.2720, Loss: 3.1079
+2024-05-23 21:00:26,471 - convnext - INFO - Epoch 21, Loss: 3.7781303593317666, Acc: 0.0000, Val Acc: 0.2720, Val Loss: 3.1079
+2024-05-23 21:09:42,189 - convnext - INFO - Evaluating - Acc: 0.2682, Loss: 3.1111
+2024-05-23 21:09:42,192 - convnext - INFO - Epoch 22, Loss: 3.77330019569397, Acc: 0.0000, Val Acc: 0.2682, Val Loss: 3.1111
+2024-05-23 21:18:58,897 - convnext - INFO - Evaluating - Acc: 0.2712, Loss: 3.1077
+2024-05-23 21:18:58,901 - convnext - INFO - Epoch 23, Loss: 3.7771136506398517, Acc: 0.0000, Val Acc: 0.2712, Val Loss: 3.1077
+2024-05-23 21:28:11,443 - convnext - INFO - Evaluating - Acc: 0.2720, Loss: 3.1011
+2024-05-23 21:28:11,448 - convnext - INFO - Epoch 24, Loss: 3.7687281557718912, Acc: 0.0000, Val Acc: 0.2720, Val Loss: 3.1011
+2024-05-23 21:37:24,720 - convnext - INFO - Evaluating - Acc: 0.2632, Loss: 3.1062
+2024-05-23 21:37:24,725 - convnext - INFO - Epoch 25, Loss: 3.7664025370279948, Acc: 0.0000, Val Acc: 0.2632, Val Loss: 3.1062
+2024-05-23 21:46:38,827 - convnext - INFO - Evaluating - Acc: 0.2753, Loss: 3.1045
+2024-05-23 21:46:38,831 - convnext - INFO - Epoch 26, Loss: 3.768337683995565, Acc: 0.0000, Val Acc: 0.2753, Val Loss: 3.1045
+2024-05-23 21:55:52,611 - convnext - INFO - Evaluating - Acc: 0.2695, Loss: 3.1059
+2024-05-23 21:55:52,616 - convnext - INFO - Epoch 27, Loss: 3.7678337562878927, Acc: 0.0000, Val Acc: 0.2695, Val Loss: 3.1059
+2024-05-23 22:05:06,187 - convnext - INFO - Evaluating - Acc: 0.2687, Loss: 3.1101
+2024-05-23 22:05:06,192 - convnext - INFO - Epoch 28, Loss: 3.7641590825716653, Acc: 0.0000, Val Acc: 0.2687, Val Loss: 3.1101
+2024-05-23 22:14:19,455 - convnext - INFO - Evaluating - Acc: 0.2730, Loss: 3.1113
+2024-05-23 22:14:19,460 - convnext - INFO - Epoch 29, Loss: 3.7647854890823362, Acc: 0.0000, Val Acc: 0.2730, Val Loss: 3.1113
+2024-05-23 22:23:32,915 - convnext - INFO - Evaluating - Acc: 0.2688, Loss: 3.1067
+2024-05-23 22:23:32,919 - convnext - INFO - Epoch 30, Loss: 3.7667825104395547, Acc: 0.0000, Val Acc: 0.2688, Val Loss: 3.1067
+2024-05-23 22:23:33,180 - convnext - INFO - Model saved with val accuracy: 26.88%
+2024-05-23 22:23:33,181 - convnext - INFO - Finished Training

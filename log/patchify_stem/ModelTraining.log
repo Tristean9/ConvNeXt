@@ -1,0 +1,63 @@
+2024-05-23 18:04:34,523 - patchify_stem - INFO - patchify_stem starts training !
+2024-05-23 18:11:44,761 - patchify_stem - INFO - Evaluating - Acc: 0.0262, Loss: 4.7095
+2024-05-23 18:11:44,765 - patchify_stem - INFO - Epoch 1, Loss: 4.705740729014079, Acc: 0.0000, Val Acc: 0.0262, Val Loss: 4.7095
+2024-05-23 18:18:55,370 - patchify_stem - INFO - Evaluating - Acc: 0.0448, Loss: 4.3156
+2024-05-23 18:18:55,373 - patchify_stem - INFO - Epoch 2, Loss: 4.492851224899292, Acc: 0.0000, Val Acc: 0.0448, Val Loss: 4.3156
+2024-05-23 18:26:06,235 - patchify_stem - INFO - Evaluating - Acc: 0.0482, Loss: 4.2674
+2024-05-23 18:26:06,239 - patchify_stem - INFO - Epoch 3, Loss: 4.428562114079793, Acc: 0.0000, Val Acc: 0.0482, Val Loss: 4.2674
+2024-05-23 18:33:15,144 - patchify_stem - INFO - Evaluating - Acc: 0.0818, Loss: 4.0550
+2024-05-23 18:33:15,148 - patchify_stem - INFO - Epoch 4, Loss: 4.372010374069214, Acc: 0.0000, Val Acc: 0.0818, Val Loss: 4.0550
+2024-05-23 18:40:22,656 - patchify_stem - INFO - Evaluating - Acc: 0.0947, Loss: 3.9644
+2024-05-23 18:40:22,660 - patchify_stem - INFO - Epoch 5, Loss: 4.304868436177571, Acc: 0.0000, Val Acc: 0.0947, Val Loss: 3.9644
+2024-05-23 18:47:33,111 - patchify_stem - INFO - Evaluating - Acc: 0.1100, Loss: 3.8184
+2024-05-23 18:47:33,118 - patchify_stem - INFO - Epoch 6, Loss: 4.2424052446683245, Acc: 0.0000, Val Acc: 0.1100, Val Loss: 3.8184
+2024-05-23 18:54:39,757 - patchify_stem - INFO - Evaluating - Acc: 0.1598, Loss: 3.5938
+2024-05-23 18:54:39,762 - patchify_stem - INFO - Epoch 7, Loss: 4.132180779457093, Acc: 0.0000, Val Acc: 0.1598, Val Loss: 3.5938
+2024-05-23 19:01:49,365 - patchify_stem - INFO - Evaluating - Acc: 0.1690, Loss: 3.5058
+2024-05-23 19:01:49,369 - patchify_stem - INFO - Epoch 8, Loss: 4.073505897680918, Acc: 0.0000, Val Acc: 0.1690, Val Loss: 3.5058
+2024-05-23 19:09:00,245 - patchify_stem - INFO - Evaluating - Acc: 0.2050, Loss: 3.3669
+2024-05-23 19:09:00,248 - patchify_stem - INFO - Epoch 9, Loss: 4.007100459575653, Acc: 0.0000, Val Acc: 0.2050, Val Loss: 3.3669
+2024-05-23 19:16:10,334 - patchify_stem - INFO - Evaluating - Acc: 0.2418, Loss: 3.2070
+2024-05-23 19:16:10,337 - patchify_stem - INFO - Epoch 10, Loss: 3.9299456701278688, Acc: 0.0000, Val Acc: 0.2418, Val Loss: 3.2070
+2024-05-23 19:23:21,552 - patchify_stem - INFO - Evaluating - Acc: 0.2432, Loss: 3.1479
+2024-05-23 19:23:21,556 - patchify_stem - INFO - Epoch 11, Loss: 3.8588028990427654, Acc: 0.0000, Val Acc: 0.2432, Val Loss: 3.1479
+2024-05-23 19:30:33,034 - patchify_stem - INFO - Evaluating - Acc: 0.2725, Loss: 3.0555
+2024-05-23 19:30:33,037 - patchify_stem - INFO - Epoch 12, Loss: 3.8021719988187153, Acc: 0.0000, Val Acc: 0.2725, Val Loss: 3.0555
+2024-05-23 19:37:46,720 - patchify_stem - INFO - Evaluating - Acc: 0.3047, Loss: 2.9533
+2024-05-23 19:37:46,724 - patchify_stem - INFO - Epoch 13, Loss: 3.724014067649841, Acc: 0.0000, Val Acc: 0.3047, Val Loss: 2.9533
+2024-05-23 19:44:57,859 - patchify_stem - INFO - Evaluating - Acc: 0.3048, Loss: 2.9495
+2024-05-23 19:44:57,862 - patchify_stem - INFO - Epoch 14, Loss: 3.716492528597514, Acc: 0.0000, Val Acc: 0.3048, Val Loss: 2.9495
+2024-05-23 19:52:10,904 - patchify_stem - INFO - Evaluating - Acc: 0.2935, Loss: 2.9589
+2024-05-23 19:52:10,908 - patchify_stem - INFO - Epoch 15, Loss: 3.7018608333269754, Acc: 0.0000, Val Acc: 0.2935, Val Loss: 2.9589
+2024-05-23 19:59:23,794 - patchify_stem - INFO - Evaluating - Acc: 0.2982, Loss: 2.9409
+2024-05-23 19:59:23,804 - patchify_stem - INFO - Epoch 16, Loss: 3.7065379519462587, Acc: 0.0000, Val Acc: 0.2982, Val Loss: 2.9409
+2024-05-23 20:06:39,435 - patchify_stem - INFO - Evaluating - Acc: 0.2922, Loss: 2.9444
+2024-05-23 20:06:39,439 - patchify_stem - INFO - Epoch 17, Loss: 3.6879844722747803, Acc: 0.0000, Val Acc: 0.2922, Val Loss: 2.9444
+2024-05-23 20:13:50,316 - patchify_stem - INFO - Evaluating - Acc: 0.2977, Loss: 2.9218
+2024-05-23 20:13:50,319 - patchify_stem - INFO - Epoch 18, Loss: 3.6878678614298503, Acc: 0.0000, Val Acc: 0.2977, Val Loss: 2.9218
+2024-05-23 20:21:01,725 - patchify_stem - INFO - Evaluating - Acc: 0.3110, Loss: 2.8773
+2024-05-23 20:21:01,729 - patchify_stem - INFO - Epoch 19, Loss: 3.676430231889089, Acc: 0.0000, Val Acc: 0.3110, Val Loss: 2.8773
+2024-05-23 20:28:12,755 - patchify_stem - INFO - Evaluating - Acc: 0.3127, Loss: 2.8968
+2024-05-23 20:28:12,758 - patchify_stem - INFO - Epoch 20, Loss: 3.6611679633458456, Acc: 0.0000, Val Acc: 0.3127, Val Loss: 2.8968
+2024-05-23 20:35:21,579 - patchify_stem - INFO - Evaluating - Acc: 0.3095, Loss: 2.8888
+2024-05-23 20:35:21,582 - patchify_stem - INFO - Epoch 21, Loss: 3.6826986014048257, Acc: 0.0000, Val Acc: 0.3095, Val Loss: 2.8888
+2024-05-23 20:42:33,754 - patchify_stem - INFO - Evaluating - Acc: 0.2957, Loss: 2.9303
+2024-05-23 20:42:33,758 - patchify_stem - INFO - Epoch 22, Loss: 3.666064603169759, Acc: 0.0000, Val Acc: 0.2957, Val Loss: 2.9303
+2024-05-23 20:49:45,161 - patchify_stem - INFO - Evaluating - Acc: 0.2985, Loss: 2.9262
+2024-05-23 20:49:45,164 - patchify_stem - INFO - Epoch 23, Loss: 3.660733221213023, Acc: 0.0000, Val Acc: 0.2985, Val Loss: 2.9262
+2024-05-23 20:57:03,035 - patchify_stem - INFO - Evaluating - Acc: 0.3015, Loss: 2.9125
+2024-05-23 20:57:03,039 - patchify_stem - INFO - Epoch 24, Loss: 3.657853062947591, Acc: 0.0000, Val Acc: 0.3015, Val Loss: 2.9125
+2024-05-23 21:04:10,916 - patchify_stem - INFO - Evaluating - Acc: 0.3053, Loss: 2.8887
+2024-05-23 21:04:10,920 - patchify_stem - INFO - Epoch 25, Loss: 3.666792243003845, Acc: 0.0000, Val Acc: 0.3053, Val Loss: 2.8887
+2024-05-23 21:11:23,054 - patchify_stem - INFO - Evaluating - Acc: 0.3017, Loss: 2.9075
+2024-05-23 21:11:23,057 - patchify_stem - INFO - Epoch 26, Loss: 3.67010777982076, Acc: 0.0000, Val Acc: 0.3017, Val Loss: 2.9075
+2024-05-23 21:18:35,500 - patchify_stem - INFO - Evaluating - Acc: 0.3153, Loss: 2.8700
+2024-05-23 21:18:35,503 - patchify_stem - INFO - Epoch 27, Loss: 3.6557449968655904, Acc: 0.0000, Val Acc: 0.3153, Val Loss: 2.8700
+2024-05-23 21:25:47,548 - patchify_stem - INFO - Evaluating - Acc: 0.3215, Loss: 2.8536
+2024-05-23 21:25:47,552 - patchify_stem - INFO - Epoch 28, Loss: 3.664787140369415, Acc: 0.0000, Val Acc: 0.3215, Val Loss: 2.8536
+2024-05-23 21:32:58,190 - patchify_stem - INFO - Evaluating - Acc: 0.3058, Loss: 2.8949
+2024-05-23 21:32:58,194 - patchify_stem - INFO - Epoch 29, Loss: 3.6641574261983236, Acc: 0.0000, Val Acc: 0.3058, Val Loss: 2.8949
+2024-05-23 21:40:09,571 - patchify_stem - INFO - Evaluating - Acc: 0.3182, Loss: 2.8578
+2024-05-23 21:40:09,574 - patchify_stem - INFO - Epoch 30, Loss: 3.6595594725608827, Acc: 0.0000, Val Acc: 0.3182, Val Loss: 2.8578
+2024-05-23 21:40:09,828 - patchify_stem - INFO - Model saved with val accuracy: 31.82%
+2024-05-23 21:40:09,828 - patchify_stem - INFO - Finished Training

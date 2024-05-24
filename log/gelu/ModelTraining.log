@@ -1,0 +1,63 @@
+2024-05-23 14:13:11,996 - gelu - INFO - gelu starts training !
+2024-05-23 14:20:25,585 - gelu - INFO - Evaluating - Acc: 0.0483, Loss: 4.6292
+2024-05-23 14:20:25,589 - gelu - INFO - Epoch 1, Loss: 4.588425733566284, Acc: 0.0000, Val Acc: 0.0483, Val Loss: 4.6292
+2024-05-23 14:27:35,434 - gelu - INFO - Evaluating - Acc: 0.0710, Loss: 4.6281
+2024-05-23 14:27:35,438 - gelu - INFO - Epoch 2, Loss: 4.349428993701935, Acc: 0.0000, Val Acc: 0.0710, Val Loss: 4.6281
+2024-05-23 14:34:45,025 - gelu - INFO - Evaluating - Acc: 0.1473, Loss: 3.7116
+2024-05-23 14:34:45,029 - gelu - INFO - Epoch 3, Loss: 4.204630889415741, Acc: 0.0000, Val Acc: 0.1473, Val Loss: 3.7116
+2024-05-23 14:41:57,947 - gelu - INFO - Evaluating - Acc: 0.1675, Loss: 7.7285
+2024-05-23 14:41:57,951 - gelu - INFO - Epoch 4, Loss: 4.067418015480041, Acc: 0.0000, Val Acc: 0.1675, Val Loss: 7.7285
+2024-05-23 14:49:08,688 - gelu - INFO - Evaluating - Acc: 0.1807, Loss: 7.9312
+2024-05-23 14:49:08,693 - gelu - INFO - Epoch 5, Loss: 3.9698746525446573, Acc: 0.0000, Val Acc: 0.1807, Val Loss: 7.9312
+2024-05-23 14:56:19,548 - gelu - INFO - Evaluating - Acc: 0.2285, Loss: 3.5169
+2024-05-23 14:56:19,551 - gelu - INFO - Epoch 6, Loss: 3.9128154141108196, Acc: 0.0000, Val Acc: 0.2285, Val Loss: 3.5169
+2024-05-23 15:03:32,722 - gelu - INFO - Evaluating - Acc: 0.3032, Loss: 4.8564
+2024-05-23 15:03:32,724 - gelu - INFO - Epoch 7, Loss: 3.694375936349233, Acc: 0.0000, Val Acc: 0.3032, Val Loss: 4.8564
+2024-05-23 15:10:44,844 - gelu - INFO - Evaluating - Acc: 0.3137, Loss: 2.9501
+2024-05-23 15:10:44,847 - gelu - INFO - Epoch 8, Loss: 3.622568631331126, Acc: 0.0000, Val Acc: 0.3137, Val Loss: 2.9501
+2024-05-23 15:17:58,272 - gelu - INFO - Evaluating - Acc: 0.3273, Loss: 3.1280
+2024-05-23 15:17:58,275 - gelu - INFO - Epoch 9, Loss: 3.593837776978811, Acc: 0.0000, Val Acc: 0.3273, Val Loss: 3.1280
+2024-05-23 15:25:06,336 - gelu - INFO - Evaluating - Acc: 0.3408, Loss: 3.2894
+2024-05-23 15:25:06,338 - gelu - INFO - Epoch 10, Loss: 3.548119831562042, Acc: 0.0000, Val Acc: 0.3408, Val Loss: 3.2894
+2024-05-23 15:32:17,814 - gelu - INFO - Evaluating - Acc: 0.3593, Loss: 2.9245
+2024-05-23 15:32:17,818 - gelu - INFO - Epoch 11, Loss: 3.5125861045519513, Acc: 0.0000, Val Acc: 0.3593, Val Loss: 2.9245
+2024-05-23 15:39:30,191 - gelu - INFO - Evaluating - Acc: 0.3633, Loss: 3.0845
+2024-05-23 15:39:30,195 - gelu - INFO - Epoch 12, Loss: 3.478531138420105, Acc: 0.0000, Val Acc: 0.3633, Val Loss: 3.0845
+2024-05-23 15:46:41,543 - gelu - INFO - Evaluating - Acc: 0.3707, Loss: 2.8516
+2024-05-23 15:46:41,547 - gelu - INFO - Epoch 13, Loss: 3.434598355611165, Acc: 0.0000, Val Acc: 0.3707, Val Loss: 2.8516
+2024-05-23 15:53:53,532 - gelu - INFO - Evaluating - Acc: 0.3775, Loss: 2.6947
+2024-05-23 15:53:53,540 - gelu - INFO - Epoch 14, Loss: 3.4068443113962807, Acc: 0.0000, Val Acc: 0.3775, Val Loss: 2.6947
+2024-05-23 16:01:05,369 - gelu - INFO - Evaluating - Acc: 0.3655, Loss: 2.8625
+2024-05-23 16:01:05,373 - gelu - INFO - Epoch 15, Loss: 3.397939882437388, Acc: 0.0000, Val Acc: 0.3655, Val Loss: 2.8625
+2024-05-23 16:08:18,165 - gelu - INFO - Evaluating - Acc: 0.3867, Loss: 2.7442
+2024-05-23 16:08:18,169 - gelu - INFO - Epoch 16, Loss: 3.398654012997945, Acc: 0.0000, Val Acc: 0.3867, Val Loss: 2.7442
+2024-05-23 16:15:34,303 - gelu - INFO - Evaluating - Acc: 0.3832, Loss: 2.7772
+2024-05-23 16:15:34,307 - gelu - INFO - Epoch 17, Loss: 3.382848453362783, Acc: 0.0000, Val Acc: 0.3832, Val Loss: 2.7772
+2024-05-23 16:22:46,555 - gelu - INFO - Evaluating - Acc: 0.3820, Loss: 2.9183
+2024-05-23 16:22:46,560 - gelu - INFO - Epoch 18, Loss: 3.384240224838257, Acc: 0.0000, Val Acc: 0.3820, Val Loss: 2.9183
+2024-05-23 16:29:57,702 - gelu - INFO - Evaluating - Acc: 0.3848, Loss: 3.1648
+2024-05-23 16:29:57,706 - gelu - INFO - Epoch 19, Loss: 3.372817131837209, Acc: 0.0000, Val Acc: 0.3848, Val Loss: 3.1648
+2024-05-23 16:37:11,496 - gelu - INFO - Evaluating - Acc: 0.3692, Loss: 3.0647
+2024-05-23 16:37:11,500 - gelu - INFO - Epoch 20, Loss: 3.3771488876342772, Acc: 0.0000, Val Acc: 0.3692, Val Loss: 3.0647
+2024-05-23 16:44:27,467 - gelu - INFO - Evaluating - Acc: 0.3765, Loss: 2.9045
+2024-05-23 16:44:27,474 - gelu - INFO - Epoch 21, Loss: 3.351011764208476, Acc: 0.0000, Val Acc: 0.3765, Val Loss: 2.9045
+2024-05-23 16:51:41,732 - gelu - INFO - Evaluating - Acc: 0.3713, Loss: 3.3086
+2024-05-23 16:51:41,740 - gelu - INFO - Epoch 22, Loss: 3.376167457739512, Acc: 0.0000, Val Acc: 0.3713, Val Loss: 3.3086
+2024-05-23 16:58:55,323 - gelu - INFO - Evaluating - Acc: 0.3830, Loss: 3.1115
+2024-05-23 16:58:55,327 - gelu - INFO - Epoch 23, Loss: 3.3655363313357034, Acc: 0.0000, Val Acc: 0.3830, Val Loss: 3.1115
+2024-05-23 17:06:07,337 - gelu - INFO - Evaluating - Acc: 0.3832, Loss: 3.1100
+2024-05-23 17:06:07,342 - gelu - INFO - Epoch 24, Loss: 3.378824454943339, Acc: 0.0000, Val Acc: 0.3832, Val Loss: 3.1100
+2024-05-23 17:13:22,758 - gelu - INFO - Evaluating - Acc: 0.3843, Loss: 2.9169
+2024-05-23 17:13:22,762 - gelu - INFO - Epoch 25, Loss: 3.3560112504959108, Acc: 0.0000, Val Acc: 0.3843, Val Loss: 2.9169
+2024-05-23 17:20:34,155 - gelu - INFO - Evaluating - Acc: 0.3818, Loss: 2.7620
+2024-05-23 17:20:34,159 - gelu - INFO - Epoch 26, Loss: 3.37576384194692, Acc: 0.0000, Val Acc: 0.3818, Val Loss: 2.7620
+2024-05-23 17:27:47,517 - gelu - INFO - Evaluating - Acc: 0.3755, Loss: 3.4106
+2024-05-23 17:27:47,520 - gelu - INFO - Epoch 27, Loss: 3.3586050651868185, Acc: 0.0000, Val Acc: 0.3755, Val Loss: 3.4106
+2024-05-23 17:35:04,100 - gelu - INFO - Evaluating - Acc: 0.3805, Loss: 2.8397
+2024-05-23 17:35:04,107 - gelu - INFO - Epoch 28, Loss: 3.3826617658933005, Acc: 0.0000, Val Acc: 0.3805, Val Loss: 2.8397
+2024-05-23 17:42:16,798 - gelu - INFO - Evaluating - Acc: 0.3863, Loss: 2.8291
+2024-05-23 17:42:16,802 - gelu - INFO - Epoch 29, Loss: 3.359495784600576, Acc: 0.0000, Val Acc: 0.3863, Val Loss: 2.8291
+2024-05-23 17:49:33,160 - gelu - INFO - Evaluating - Acc: 0.3828, Loss: 2.8831
+2024-05-23 17:49:33,164 - gelu - INFO - Epoch 30, Loss: 3.3756427149772645, Acc: 0.0000, Val Acc: 0.3828, Val Loss: 2.8831
+2024-05-23 17:49:33,427 - gelu - INFO - Model saved with val accuracy: 38.28%
+2024-05-23 17:49:33,428 - gelu - INFO - Finished Training

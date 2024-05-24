@@ -1,0 +1,63 @@
+2024-05-23 10:29:32,162 - depth_conv - INFO - depth_conv starts training !
+2024-05-23 10:39:23,368 - depth_conv - INFO - Evaluating - Acc: 0.0577, Loss: 4.2196
+2024-05-23 10:39:23,380 - depth_conv - INFO - Epoch 1, Loss: 4.648357640902201, Acc: 0.0000, Val Acc: 0.0577, Val Loss: 4.2196
+2024-05-23 10:46:16,121 - depth_conv - INFO - Evaluating - Acc: 0.1202, Loss: 3.7785
+2024-05-23 10:46:16,125 - depth_conv - INFO - Epoch 2, Loss: 4.276353134155274, Acc: 0.0000, Val Acc: 0.1202, Val Loss: 3.7785
+2024-05-23 10:53:10,055 - depth_conv - INFO - Evaluating - Acc: 0.1558, Loss: 3.5597
+2024-05-23 10:53:10,058 - depth_conv - INFO - Epoch 3, Loss: 4.099598641872406, Acc: 0.0000, Val Acc: 0.1558, Val Loss: 3.5597
+2024-05-23 11:00:06,645 - depth_conv - INFO - Evaluating - Acc: 0.1880, Loss: 3.4441
+2024-05-23 11:00:06,851 - depth_conv - INFO - Epoch 4, Loss: 4.0002357953389485, Acc: 0.0000, Val Acc: 0.1880, Val Loss: 3.4441
+2024-05-23 11:07:01,913 - depth_conv - INFO - Evaluating - Acc: 0.2250, Loss: 3.2484
+2024-05-23 11:07:01,917 - depth_conv - INFO - Epoch 5, Loss: 3.928570446014404, Acc: 0.0000, Val Acc: 0.2250, Val Loss: 3.2484
+2024-05-23 11:14:01,737 - depth_conv - INFO - Evaluating - Acc: 0.2313, Loss: 3.1827
+2024-05-23 11:14:01,741 - depth_conv - INFO - Epoch 6, Loss: 3.8550774941444397, Acc: 0.0000, Val Acc: 0.2313, Val Loss: 3.1827
+2024-05-23 11:20:58,502 - depth_conv - INFO - Evaluating - Acc: 0.3452, Loss: 2.7123
+2024-05-23 11:20:58,505 - depth_conv - INFO - Epoch 7, Loss: 3.6455699782371522, Acc: 0.0000, Val Acc: 0.3452, Val Loss: 2.7123
+2024-05-23 11:27:53,445 - depth_conv - INFO - Evaluating - Acc: 0.3682, Loss: 2.6280
+2024-05-23 11:27:55,438 - depth_conv - INFO - Epoch 8, Loss: 3.586447575410207, Acc: 0.0000, Val Acc: 0.3682, Val Loss: 2.6280
+2024-05-23 11:34:49,577 - depth_conv - INFO - Evaluating - Acc: 0.3842, Loss: 2.5858
+2024-05-23 11:34:50,461 - depth_conv - INFO - Epoch 9, Loss: 3.5385039752324423, Acc: 0.0000, Val Acc: 0.3842, Val Loss: 2.5858
+2024-05-23 11:41:44,950 - depth_conv - INFO - Evaluating - Acc: 0.4020, Loss: 2.5202
+2024-05-23 11:41:44,954 - depth_conv - INFO - Epoch 10, Loss: 3.4745769650141396, Acc: 0.0000, Val Acc: 0.4020, Val Loss: 2.5202
+2024-05-23 11:48:40,561 - depth_conv - INFO - Evaluating - Acc: 0.3997, Loss: 2.4737
+2024-05-23 11:48:40,565 - depth_conv - INFO - Epoch 11, Loss: 3.426423586686452, Acc: 0.0000, Val Acc: 0.3997, Val Loss: 2.4737
+2024-05-23 11:55:34,927 - depth_conv - INFO - Evaluating - Acc: 0.4257, Loss: 2.3827
+2024-05-23 11:55:34,930 - depth_conv - INFO - Epoch 12, Loss: 3.3722542969385785, Acc: 0.0000, Val Acc: 0.4257, Val Loss: 2.3827
+2024-05-23 12:02:33,166 - depth_conv - INFO - Evaluating - Acc: 0.4470, Loss: 2.2787
+2024-05-23 12:02:33,170 - depth_conv - INFO - Epoch 13, Loss: 3.264584932804108, Acc: 0.0000, Val Acc: 0.4470, Val Loss: 2.2787
+2024-05-23 12:09:26,857 - depth_conv - INFO - Evaluating - Acc: 0.4478, Loss: 2.2891
+2024-05-23 12:09:26,859 - depth_conv - INFO - Epoch 14, Loss: 3.2684360551834106, Acc: 0.0000, Val Acc: 0.4478, Val Loss: 2.2891
+2024-05-23 12:16:20,670 - depth_conv - INFO - Evaluating - Acc: 0.4492, Loss: 2.3082
+2024-05-23 12:16:20,675 - depth_conv - INFO - Epoch 15, Loss: 3.24686026207606, Acc: 0.0000, Val Acc: 0.4492, Val Loss: 2.3082
+2024-05-23 12:23:15,461 - depth_conv - INFO - Evaluating - Acc: 0.4525, Loss: 2.2800
+2024-05-23 12:23:15,465 - depth_conv - INFO - Epoch 16, Loss: 3.2331769308249156, Acc: 0.0000, Val Acc: 0.4525, Val Loss: 2.2800
+2024-05-23 12:30:11,885 - depth_conv - INFO - Evaluating - Acc: 0.4538, Loss: 2.2715
+2024-05-23 12:30:11,888 - depth_conv - INFO - Epoch 17, Loss: 3.227023720105489, Acc: 0.0000, Val Acc: 0.4538, Val Loss: 2.2715
+2024-05-23 12:37:05,326 - depth_conv - INFO - Evaluating - Acc: 0.4468, Loss: 2.2909
+2024-05-23 12:37:05,330 - depth_conv - INFO - Epoch 18, Loss: 3.230436614672343, Acc: 0.0000, Val Acc: 0.4468, Val Loss: 2.2909
+2024-05-23 12:44:00,953 - depth_conv - INFO - Evaluating - Acc: 0.4467, Loss: 2.3020
+2024-05-23 12:44:00,966 - depth_conv - INFO - Epoch 19, Loss: 3.2075244336128237, Acc: 0.0000, Val Acc: 0.4467, Val Loss: 2.3020
+2024-05-23 12:50:55,941 - depth_conv - INFO - Evaluating - Acc: 0.4527, Loss: 2.2558
+2024-05-23 12:50:55,944 - depth_conv - INFO - Epoch 20, Loss: 3.1967274158795673, Acc: 0.0000, Val Acc: 0.4527, Val Loss: 2.2558
+2024-05-23 12:57:54,174 - depth_conv - INFO - Evaluating - Acc: 0.4483, Loss: 2.2811
+2024-05-23 12:57:54,182 - depth_conv - INFO - Epoch 21, Loss: 3.198689689397812, Acc: 0.0000, Val Acc: 0.4483, Val Loss: 2.2811
+2024-05-23 13:04:50,197 - depth_conv - INFO - Evaluating - Acc: 0.4520, Loss: 2.2637
+2024-05-23 13:04:50,201 - depth_conv - INFO - Epoch 22, Loss: 3.2057661054929096, Acc: 0.0000, Val Acc: 0.4520, Val Loss: 2.2637
+2024-05-23 13:11:48,783 - depth_conv - INFO - Evaluating - Acc: 0.4535, Loss: 2.2731
+2024-05-23 13:11:48,787 - depth_conv - INFO - Epoch 23, Loss: 3.2028821373780567, Acc: 0.0000, Val Acc: 0.4535, Val Loss: 2.2731
+2024-05-23 13:18:43,746 - depth_conv - INFO - Evaluating - Acc: 0.4600, Loss: 2.2203
+2024-05-23 13:18:43,751 - depth_conv - INFO - Epoch 24, Loss: 3.1879932421048482, Acc: 0.0000, Val Acc: 0.4600, Val Loss: 2.2203
+2024-05-23 13:25:39,445 - depth_conv - INFO - Evaluating - Acc: 0.4623, Loss: 2.2147
+2024-05-23 13:25:39,448 - depth_conv - INFO - Epoch 25, Loss: 3.195908006429672, Acc: 0.0000, Val Acc: 0.4623, Val Loss: 2.2147
+2024-05-23 13:32:38,552 - depth_conv - INFO - Evaluating - Acc: 0.4627, Loss: 2.2319
+2024-05-23 13:32:38,555 - depth_conv - INFO - Epoch 26, Loss: 3.2297550919055937, Acc: 0.0000, Val Acc: 0.4627, Val Loss: 2.2319
+2024-05-23 13:39:32,965 - depth_conv - INFO - Evaluating - Acc: 0.4568, Loss: 2.2697
+2024-05-23 13:39:32,971 - depth_conv - INFO - Epoch 27, Loss: 3.214121036609014, Acc: 0.0000, Val Acc: 0.4568, Val Loss: 2.2697
+2024-05-23 13:46:27,816 - depth_conv - INFO - Evaluating - Acc: 0.4563, Loss: 2.2469
+2024-05-23 13:46:27,819 - depth_conv - INFO - Epoch 28, Loss: 3.2109656812349954, Acc: 0.0000, Val Acc: 0.4563, Val Loss: 2.2469
+2024-05-23 13:53:20,225 - depth_conv - INFO - Evaluating - Acc: 0.4677, Loss: 2.2244
+2024-05-23 13:53:20,228 - depth_conv - INFO - Epoch 29, Loss: 3.2132769578297933, Acc: 0.0000, Val Acc: 0.4677, Val Loss: 2.2244
+2024-05-23 14:00:12,435 - depth_conv - INFO - Evaluating - Acc: 0.4618, Loss: 2.2230
+2024-05-23 14:00:12,439 - depth_conv - INFO - Epoch 30, Loss: 3.209224855105082, Acc: 0.0000, Val Acc: 0.4618, Val Loss: 2.2230
+2024-05-23 14:00:12,601 - depth_conv - INFO - Model saved with val accuracy: 46.18%
+2024-05-23 14:00:12,601 - depth_conv - INFO - Finished Training

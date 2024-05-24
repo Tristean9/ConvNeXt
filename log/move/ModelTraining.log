@@ -1,0 +1,63 @@
+2024-05-23 10:29:31,902 - move - INFO - move starts training !
+2024-05-23 10:39:22,101 - move - INFO - Evaluating - Acc: 0.0672, Loss: 4.2035
+2024-05-23 10:39:22,109 - move - INFO - Epoch 1, Loss: 4.543700928846995, Acc: 0.0000, Val Acc: 0.0672, Val Loss: 4.2035
+2024-05-23 10:46:20,251 - move - INFO - Evaluating - Acc: 0.0963, Loss: 3.9910
+2024-05-23 10:46:20,255 - move - INFO - Epoch 2, Loss: 4.262977835496267, Acc: 0.0000, Val Acc: 0.0963, Val Loss: 3.9910
+2024-05-23 10:53:19,354 - move - INFO - Evaluating - Acc: 0.1738, Loss: 3.5037
+2024-05-23 10:53:19,358 - move - INFO - Epoch 3, Loss: 4.098825573921204, Acc: 0.0000, Val Acc: 0.1738, Val Loss: 3.5037
+2024-05-23 11:00:17,183 - move - INFO - Evaluating - Acc: 0.2053, Loss: 3.4180
+2024-05-23 11:00:17,190 - move - INFO - Epoch 4, Loss: 3.9677574102083843, Acc: 0.0000, Val Acc: 0.2053, Val Loss: 3.4180
+2024-05-23 11:07:16,363 - move - INFO - Evaluating - Acc: 0.2498, Loss: 3.1256
+2024-05-23 11:07:16,367 - move - INFO - Epoch 5, Loss: 3.912862605571747, Acc: 0.0000, Val Acc: 0.2498, Val Loss: 3.1256
+2024-05-23 11:14:20,851 - move - INFO - Evaluating - Acc: 0.2527, Loss: 3.5206
+2024-05-23 11:14:20,855 - move - INFO - Epoch 6, Loss: 3.840579631010691, Acc: 0.0000, Val Acc: 0.2527, Val Loss: 3.5206
+2024-05-23 11:21:21,269 - move - INFO - Evaluating - Acc: 0.3495, Loss: 3.2414
+2024-05-23 11:21:21,273 - move - INFO - Epoch 7, Loss: 3.648193899790446, Acc: 0.0000, Val Acc: 0.3495, Val Loss: 3.2414
+2024-05-23 11:28:19,497 - move - INFO - Evaluating - Acc: 0.3638, Loss: 3.2028
+2024-05-23 11:28:19,507 - move - INFO - Epoch 8, Loss: 3.5703396617571515, Acc: 0.0000, Val Acc: 0.3638, Val Loss: 3.2028
+2024-05-23 11:35:18,075 - move - INFO - Evaluating - Acc: 0.3635, Loss: 2.6399
+2024-05-23 11:35:18,078 - move - INFO - Epoch 9, Loss: 3.5459229388237, Acc: 0.0000, Val Acc: 0.3635, Val Loss: 2.6399
+2024-05-23 11:42:18,607 - move - INFO - Evaluating - Acc: 0.3885, Loss: 2.6943
+2024-05-23 11:42:18,612 - move - INFO - Epoch 10, Loss: 3.504900376955668, Acc: 0.0000, Val Acc: 0.3885, Val Loss: 2.6943
+2024-05-23 11:49:18,977 - move - INFO - Evaluating - Acc: 0.3960, Loss: 2.9639
+2024-05-23 11:49:18,980 - move - INFO - Epoch 11, Loss: 3.484870238939921, Acc: 0.0000, Val Acc: 0.3960, Val Loss: 2.9639
+2024-05-23 11:56:16,107 - move - INFO - Evaluating - Acc: 0.4013, Loss: 2.8743
+2024-05-23 11:56:16,111 - move - INFO - Epoch 12, Loss: 3.433371769587199, Acc: 0.0000, Val Acc: 0.4013, Val Loss: 2.8743
+2024-05-23 12:03:15,641 - move - INFO - Evaluating - Acc: 0.4210, Loss: 2.6720
+2024-05-23 12:03:15,645 - move - INFO - Epoch 13, Loss: 3.393834794362386, Acc: 0.0000, Val Acc: 0.4210, Val Loss: 2.6720
+2024-05-23 12:10:12,792 - move - INFO - Evaluating - Acc: 0.4253, Loss: 2.9236
+2024-05-23 12:10:12,796 - move - INFO - Epoch 14, Loss: 3.356894642988841, Acc: 0.0000, Val Acc: 0.4253, Val Loss: 2.9236
+2024-05-23 12:17:10,733 - move - INFO - Evaluating - Acc: 0.4247, Loss: 3.2225
+2024-05-23 12:17:10,743 - move - INFO - Epoch 15, Loss: 3.3563018307685852, Acc: 0.0000, Val Acc: 0.4247, Val Loss: 3.2225
+2024-05-23 12:24:10,864 - move - INFO - Evaluating - Acc: 0.4062, Loss: 4.3729
+2024-05-23 12:24:10,868 - move - INFO - Epoch 16, Loss: 3.364746660709381, Acc: 0.0000, Val Acc: 0.4062, Val Loss: 4.3729
+2024-05-23 12:31:07,417 - move - INFO - Evaluating - Acc: 0.4213, Loss: 3.2716
+2024-05-23 12:31:07,421 - move - INFO - Epoch 17, Loss: 3.346237884044647, Acc: 0.0000, Val Acc: 0.4213, Val Loss: 3.2716
+2024-05-23 12:38:08,507 - move - INFO - Evaluating - Acc: 0.4192, Loss: 2.6060
+2024-05-23 12:38:08,511 - move - INFO - Epoch 18, Loss: 3.346244226137797, Acc: 0.0000, Val Acc: 0.4192, Val Loss: 2.6060
+2024-05-23 12:45:06,455 - move - INFO - Evaluating - Acc: 0.4228, Loss: 3.1303
+2024-05-23 12:45:06,458 - move - INFO - Epoch 19, Loss: 3.324523046175639, Acc: 0.0000, Val Acc: 0.4228, Val Loss: 3.1303
+2024-05-23 12:52:08,108 - move - INFO - Evaluating - Acc: 0.4160, Loss: 3.0588
+2024-05-23 12:52:08,111 - move - INFO - Epoch 20, Loss: 3.3302858997980755, Acc: 0.0000, Val Acc: 0.4160, Val Loss: 3.0588
+2024-05-23 12:59:09,800 - move - INFO - Evaluating - Acc: 0.4242, Loss: 2.5011
+2024-05-23 12:59:09,810 - move - INFO - Epoch 21, Loss: 3.3139127055009205, Acc: 0.0000, Val Acc: 0.4242, Val Loss: 2.5011
+2024-05-23 13:06:08,178 - move - INFO - Evaluating - Acc: 0.4277, Loss: 3.0853
+2024-05-23 13:06:08,184 - move - INFO - Epoch 22, Loss: 3.3314881375630696, Acc: 0.0000, Val Acc: 0.4277, Val Loss: 3.0853
+2024-05-23 13:13:09,041 - move - INFO - Evaluating - Acc: 0.4353, Loss: 2.6624
+2024-05-23 13:13:09,044 - move - INFO - Epoch 23, Loss: 3.329163420518239, Acc: 0.0000, Val Acc: 0.4353, Val Loss: 2.6624
+2024-05-23 13:20:08,191 - move - INFO - Evaluating - Acc: 0.4217, Loss: 4.5514
+2024-05-23 13:20:08,195 - move - INFO - Epoch 24, Loss: 3.315285958925883, Acc: 0.0000, Val Acc: 0.4217, Val Loss: 4.5514
+2024-05-23 13:27:07,829 - move - INFO - Evaluating - Acc: 0.4258, Loss: 3.1265
+2024-05-23 13:27:07,833 - move - INFO - Epoch 25, Loss: 3.324327211380005, Acc: 0.0000, Val Acc: 0.4258, Val Loss: 3.1265
+2024-05-23 13:34:07,354 - move - INFO - Evaluating - Acc: 0.4120, Loss: 3.1336
+2024-05-23 13:34:07,361 - move - INFO - Epoch 26, Loss: 3.3249981530507404, Acc: 0.0000, Val Acc: 0.4120, Val Loss: 3.1336
+2024-05-23 13:41:07,001 - move - INFO - Evaluating - Acc: 0.4198, Loss: 2.7452
+2024-05-23 13:41:07,005 - move - INFO - Epoch 27, Loss: 3.340839963277181, Acc: 0.0000, Val Acc: 0.4198, Val Loss: 2.7452
+2024-05-23 13:48:07,991 - move - INFO - Evaluating - Acc: 0.4198, Loss: 3.3892
+2024-05-23 13:48:07,995 - move - INFO - Epoch 28, Loss: 3.3328388385772705, Acc: 0.0000, Val Acc: 0.4198, Val Loss: 3.3892
+2024-05-23 13:55:04,475 - move - INFO - Evaluating - Acc: 0.4350, Loss: 2.9740
+2024-05-23 13:55:04,514 - move - INFO - Epoch 29, Loss: 3.3261388918558756, Acc: 0.0000, Val Acc: 0.4350, Val Loss: 2.9740
+2024-05-23 14:02:03,945 - move - INFO - Evaluating - Acc: 0.4232, Loss: 4.6065
+2024-05-23 14:02:03,953 - move - INFO - Epoch 30, Loss: 3.3252189757029216, Acc: 0.0000, Val Acc: 0.4232, Val Loss: 4.6065
+2024-05-23 14:02:04,154 - move - INFO - Model saved with val accuracy: 42.32%
+2024-05-23 14:02:04,154 - move - INFO - Finished Training

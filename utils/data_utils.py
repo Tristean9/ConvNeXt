@@ -41,7 +41,16 @@ def load_data(dataset_path, batch_size, shuffle=True):
 
 # Mixup 函数
 def mixup_data(x, y, alpha=1.0, use_cuda=True):
-    ''' 返回混合后的输入输出对 '''
+    """
+    函数“mixup_data”获取输入和输出数据，使用随机beta分布将它们混合，并返回混合输入数据以及原始和混合输出数据。
+    
+    :param x: 参数“x”通常是您想要混合的输入数据或特征。它可以是包含模型输入数据的张量或数组。
+    :param y: `mixup_data` 函数中的 `y` 参数表示与输入数据 `x` 对应的目标标签或输出。它用于监督学习任务，其中模型经过训练以根据输入数据预测这些目标标签。
+    :param alpha: `mixup_data` 函数中的 `alpha` 参数是一个超参数，用于控制输入和输出数据混合的强度。它用于计算混合比
+    `lam`，该混合比决定每个数据点与另一个数据点的混合程度。
+    :param use_cuda: `use_cuda` 参数是一个布尔标志，指示是否使用 CUDA 进行张量运算。
+    :return: 函数“mixup_data”返回混合输入“mixed_x”、原始输出“y_a”、混洗后的输出“y_b”和混合系数“lam”。
+    """
     if alpha <= 0:
         return x, y
     if use_cuda:

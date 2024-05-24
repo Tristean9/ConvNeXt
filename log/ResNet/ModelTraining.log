@@ -1,0 +1,64 @@
+2024-05-23 10:29:32,239 - ResNet - INFO - ResNet starts training !
+2024-05-23 10:39:32,950 - ResNet - INFO - Evaluating - Acc: 0.0260, Loss: 4.5042
+2024-05-23 10:39:32,955 - ResNet - INFO - Epoch 1, Loss: 4.697063623746236, Acc: 0.0000, Val Acc: 0.0260, Val Loss: 4.5042
+2024-05-23 10:46:58,174 - ResNet - INFO - Evaluating - Acc: 0.0420, Loss: 4.3751
+2024-05-23 10:46:58,176 - ResNet - INFO - Epoch 2, Loss: 4.5120875485738114, Acc: 0.0000, Val Acc: 0.0420, Val Loss: 4.3751
+2024-05-23 10:54:25,788 - ResNet - INFO - Evaluating - Acc: 0.0600, Loss: 4.2419
+2024-05-23 10:54:25,791 - ResNet - INFO - Epoch 3, Loss: 4.445636411984761, Acc: 0.0000, Val Acc: 0.0600, Val Loss: 4.2419
+2024-05-23 11:01:49,573 - ResNet - INFO - Evaluating - Acc: 0.0885, Loss: 4.0712
+2024-05-23 11:01:49,726 - ResNet - INFO - Epoch 4, Loss: 4.381656144618988, Acc: 0.0000, Val Acc: 0.0885, Val Loss: 4.0712
+2024-05-23 11:09:13,977 - ResNet - INFO - Evaluating - Acc: 0.1072, Loss: 3.9405
+2024-05-23 11:09:13,998 - ResNet - INFO - Epoch 5, Loss: 4.288627559026082, Acc: 0.0000, Val Acc: 0.1072, Val Loss: 3.9405
+2024-05-23 11:16:42,584 - ResNet - INFO - Evaluating - Acc: 0.1142, Loss: 3.8954
+2024-05-23 11:16:42,588 - ResNet - INFO - Epoch 6, Loss: 4.203411423047384, Acc: 0.0000, Val Acc: 0.1142, Val Loss: 3.8954
+2024-05-23 11:24:11,368 - ResNet - INFO - Evaluating - Acc: 0.1745, Loss: 3.5805
+2024-05-23 11:24:11,372 - ResNet - INFO - Epoch 7, Loss: 4.104049537181854, Acc: 0.0000, Val Acc: 0.1745, Val Loss: 3.5805
+2024-05-23 11:31:36,304 - ResNet - INFO - Evaluating - Acc: 0.1658, Loss: 3.5371
+2024-05-23 11:31:38,256 - ResNet - INFO - Epoch 8, Loss: 4.0407352542877195, Acc: 0.0000, Val Acc: 0.1658, Val Loss: 3.5371
+2024-05-23 11:39:09,269 - ResNet - INFO - Evaluating - Acc: 0.2140, Loss: 3.3510
+2024-05-23 11:39:09,273 - ResNet - INFO - Epoch 9, Loss: 3.9769195060729983, Acc: 0.0000, Val Acc: 0.2140, Val Loss: 3.3510
+2024-05-23 11:46:35,458 - ResNet - INFO - Evaluating - Acc: 0.2455, Loss: 3.1896
+2024-05-23 11:46:35,461 - ResNet - INFO - Epoch 10, Loss: 3.888194914658864, Acc: 0.0000, Val Acc: 0.2455, Val Loss: 3.1896
+2024-05-23 11:54:03,772 - ResNet - INFO - Evaluating - Acc: 0.2678, Loss: 3.0957
+2024-05-23 11:54:03,776 - ResNet - INFO - Epoch 11, Loss: 3.811429760615031, Acc: 0.0000, Val Acc: 0.2678, Val Loss: 3.0957
+2024-05-23 12:01:29,014 - ResNet - INFO - Evaluating - Acc: 0.2975, Loss: 2.9592
+2024-05-23 12:01:29,017 - ResNet - INFO - Epoch 12, Loss: 3.74249028523763, Acc: 0.0000, Val Acc: 0.2975, Val Loss: 2.9592
+2024-05-23 12:08:49,907 - ResNet - INFO - Evaluating - Acc: 0.3147, Loss: 2.8910
+2024-05-23 12:08:49,910 - ResNet - INFO - Epoch 13, Loss: 3.6581603275934853, Acc: 0.0000, Val Acc: 0.3147, Val Loss: 2.8910
+2024-05-23 12:16:17,162 - ResNet - INFO - Evaluating - Acc: 0.2965, Loss: 2.9745
+2024-05-23 12:16:17,172 - ResNet - INFO - Epoch 14, Loss: 3.640053850809733, Acc: 0.0000, Val Acc: 0.2965, Val Loss: 2.9745
+2024-05-23 12:23:40,530 - ResNet - INFO - Evaluating - Acc: 0.3265, Loss: 2.8638
+2024-05-23 12:23:40,533 - ResNet - INFO - Epoch 15, Loss: 3.6303500215212505, Acc: 0.0000, Val Acc: 0.3265, Val Loss: 2.8638
+2024-05-23 12:31:02,216 - ResNet - INFO - Evaluating - Acc: 0.3180, Loss: 2.8838
+2024-05-23 12:31:02,219 - ResNet - INFO - Epoch 16, Loss: 3.618734577337901, Acc: 0.0000, Val Acc: 0.3180, Val Loss: 2.8838
+2024-05-23 12:38:25,286 - ResNet - INFO - Evaluating - Acc: 0.3390, Loss: 2.8227
+2024-05-23 12:38:25,290 - ResNet - INFO - Epoch 17, Loss: 3.5990358918507894, Acc: 0.0000, Val Acc: 0.3390, Val Loss: 2.8227
+2024-05-23 12:45:50,396 - ResNet - INFO - Evaluating - Acc: 0.3220, Loss: 2.8684
+2024-05-23 12:45:50,399 - ResNet - INFO - Epoch 18, Loss: 3.588401577313741, Acc: 0.0000, Val Acc: 0.3220, Val Loss: 2.8684
+2024-05-23 12:53:19,174 - ResNet - INFO - Evaluating - Acc: 0.3253, Loss: 2.8671
+2024-05-23 12:53:19,178 - ResNet - INFO - Epoch 19, Loss: 3.588268685340881, Acc: 0.0000, Val Acc: 0.3253, Val Loss: 2.8671
+2024-05-23 13:00:47,456 - ResNet - INFO - Evaluating - Acc: 0.3143, Loss: 2.8949
+2024-05-23 13:00:47,472 - ResNet - INFO - Epoch 20, Loss: 3.58337429857254, Acc: 0.0000, Val Acc: 0.3143, Val Loss: 2.8949
+2024-05-23 13:08:13,940 - ResNet - INFO - Evaluating - Acc: 0.3250, Loss: 2.8489
+2024-05-23 13:08:13,944 - ResNet - INFO - Epoch 21, Loss: 3.5681172563234966, Acc: 0.0000, Val Acc: 0.3250, Val Loss: 2.8489
+2024-05-23 13:15:38,173 - ResNet - INFO - Evaluating - Acc: 0.3278, Loss: 2.8224
+2024-05-23 13:15:38,176 - ResNet - INFO - Epoch 22, Loss: 3.573586622873942, Acc: 0.0000, Val Acc: 0.3278, Val Loss: 2.8224
+2024-05-23 13:23:06,709 - ResNet - INFO - Evaluating - Acc: 0.3483, Loss: 2.7697
+2024-05-23 13:23:06,713 - ResNet - INFO - Epoch 23, Loss: 3.570565131028493, Acc: 0.0000, Val Acc: 0.3483, Val Loss: 2.7697
+2024-05-23 13:30:31,889 - ResNet - INFO - Evaluating - Acc: 0.3183, Loss: 2.8928
+2024-05-23 13:30:31,892 - ResNet - INFO - Epoch 24, Loss: 3.5629595839182535, Acc: 0.0000, Val Acc: 0.3183, Val Loss: 2.8928
+2024-05-23 13:38:00,641 - ResNet - INFO - Evaluating - Acc: 0.3340, Loss: 2.8263
+2024-05-23 13:38:00,649 - ResNet - INFO - Epoch 25, Loss: 3.5660179076194765, Acc: 0.0000, Val Acc: 0.3340, Val Loss: 2.8263
+2024-05-23 13:45:26,628 - ResNet - INFO - Evaluating - Acc: 0.3312, Loss: 2.8137
+2024-05-23 13:45:26,631 - ResNet - INFO - Epoch 26, Loss: 3.580195876757304, Acc: 0.0000, Val Acc: 0.3312, Val Loss: 2.8137
+2024-05-23 13:52:54,995 - ResNet - INFO - Evaluating - Acc: 0.3318, Loss: 2.8180
+2024-05-23 13:52:54,999 - ResNet - INFO - Epoch 27, Loss: 3.5699756159782408, Acc: 0.0000, Val Acc: 0.3318, Val Loss: 2.8180
+2024-05-23 14:00:16,173 - ResNet - INFO - Evaluating - Acc: 0.3163, Loss: 2.8882
+2024-05-23 14:00:16,177 - ResNet - INFO - Epoch 28, Loss: 3.58014555088679, Acc: 0.0000, Val Acc: 0.3163, Val Loss: 2.8882
+2024-05-23 14:07:38,974 - ResNet - INFO - Evaluating - Acc: 0.3233, Loss: 2.8552
+2024-05-23 14:07:38,977 - ResNet - INFO - Epoch 29, Loss: 3.57047416416804, Acc: 0.0000, Val Acc: 0.3233, Val Loss: 2.8552
+2024-05-23 14:15:02,150 - ResNet - INFO - Evaluating - Acc: 0.3135, Loss: 2.8908
+2024-05-23 14:15:02,153 - ResNet - INFO - Epoch 30, Loss: 3.5726900548934934, Acc: 0.0000, Val Acc: 0.3135, Val Loss: 2.8908
+2024-05-23 14:15:02,335 - ResNet - INFO - Model saved with val accuracy: 31.35%
+2024-05-23 14:15:02,335 - ResNet - INFO - Finished Training
+2024-05-24 10:33:15,679 - ResNet - INFO - Evaluating - Acc: 0.3073, Loss: 2.8901
