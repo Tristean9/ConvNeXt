@@ -12,10 +12,10 @@ def tune():
     `tune` 函数加载预先训练的模型，替换分类头，并在新的数据集上对模型进行特定数量的 epoch 训练。
     """
 
-    train_dir = "./dataset/MSR/train"
+    train_dir = "./dataset/MRI/train"
     train_loader = load_data(train_dir, batch_size=16)
 
-    val_dir = "./dataset/MSR/val"
+    val_dir = "./dataset/MRI/val"
     val_loader = load_data(val_dir, batch_size=1)
 
     # 加载预训练模型
@@ -28,7 +28,7 @@ def tune():
     num_classes = 4  # 新任务的类别数
     model.fc = nn.Linear(model.fc.in_features, num_classes)
 
-    model_name = "fewer_activations_tune_msr"
+    model_name = "fewer_activations_tune_mri"
 
     logger = configure_logging(model_name)
     logger.info(f"{model_name} starts training !")
@@ -44,7 +44,7 @@ def tune():
 
 
 def test():
-    test_dir = "./dataset/MSR/test"
+    test_dir = "./dataset/MRI/test"
     test_loader = load_data(test_dir, batch_size=1)
 
     # 加载预训练模型
@@ -54,10 +54,10 @@ def test():
     num_classes = 4  # 新任务的类别数
     model.fc = nn.Linear(model.fc.in_features, num_classes)
 
-    weights_path = "trained_models/fewer_activations_tune_msr.pth"
+    weights_path = "trained_models/fewer_activations_tune_mri.pth"
     model.load_state_dict(torch.load(weights_path))
 
-    model_name = "fewer_activations_tune_msr"
+    model_name = "fewer_activations_tune_mri"
 
     logger = configure_logging(model_name)
     evaluate_model(data_loader=test_loader, model=model, logger=logger)
